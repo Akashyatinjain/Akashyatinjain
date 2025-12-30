@@ -14,13 +14,13 @@
 ## 🚀 Projects
 ### 💰 Finance Tracker
 Full-stack personal finance tracker with budgeting, reports, trends & notifications  
-**Tech:** React, Node.js, PostgreSQL
+**Tech:** React, Node.js, PostgreSQL                    
 🔗 Live: https://budget-tracker-no3.vercel.app/
 
 ### 🌿 SWASTHYA (SIH Project)
 Ayurveda-based health platform calculating protein & wellness metrics  
 **Tech:** JavaScript, React  
-👥 Team project (2 members)
+👥 Team project (2 members)                    
 🔗 Live: https://sih-rho-liard.vercel.app/
 
 ### 🌍 World Tracker
@@ -29,7 +29,7 @@ Weather & Time-Zone tracker web app
 
 ### 🎨 UI Redesign – C++ Website
 Modern responsive UI/UX redesign  
-**Tech:** HTML, CSS
+**Tech:** HTML, CSS                   
 🔗 Live: https://akashyatinjain.github.io/Redesign-off-Cplus-plus-/video.html
 
 ## 🎯 2025 Goals
