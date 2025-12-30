@@ -42,7 +42,3 @@ Modern responsive UI/UX redesign
 ## 📈 Contribution Graph
 
 ![GitHub Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=Akashyatinjain&bg_color=0d1117&color=ff00ff&line=00ffcc&point=ffffff&area=true&hide_border=true)
-
-## 🐍 Contribution Snake
-
-![GitHub Snake](https://raw.githubusercontent.com/Akashyatinjain/github-snake/output/github-contribution-grid-snake-dark.svg)
