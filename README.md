@@ -14,7 +14,7 @@
 ## 🚀 Projects
 ### 💰 Finance Tracker
 Full-stack personal finance tracker with budgeting, reports, trends & notifications  
-**Tech:** React, Node.js, PostgreSQL  
+**Tech:** React, Node.js, PostgreSQL
 🔗 Live: https://budget-tracker-no3.vercel.app/
 
 ### 🌿 SWASTHYA (SIH Project)
