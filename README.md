@@ -38,3 +38,13 @@ Modern responsive UI/UX redesign
 - Cloud basics (AWS)
 
 📫 Email: aj0881871@student.sfit.ac.in
+
+## 📊 GitHub Stats
+
+![Akash's GitHub stats](https://github-readme-stats.vercel.app/api?username=Akashyatinjain&show_icons=true&theme=radical)
+
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Akashyatinjain&layout=compact&theme=radical)
+
+## 📈 Contribution Graph
+
+![GitHub Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=Akashyatinjain&bg_color=0d1117&color=ff00ff&line=00ffcc&point=ffffff&area=true&hide_border=true)
