@@ -1,5 +1,3 @@
-# Hi, I'm Akash 👋
-
 # Hi, I'm Akash Jain 👋
 
 🎓 Information Technology Undergraduate (CGPA: 8.31)  
