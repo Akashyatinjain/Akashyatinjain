@@ -21,7 +21,7 @@ Full-stack personal finance tracker with budgeting, reports, trends & notificati
 Ayurveda-based health platform calculating protein & wellness metrics  
 **Tech:** JavaScript, React  
 👥 Team project (2 members)
-
+🔗 Live: https://sih-rho-liard.vercel.app/
 ### 🌍 World Tracker
 Weather & Time-Zone tracker web app  
 **Tech:** React, Node.js, PostgreSQL
@@ -29,7 +29,7 @@ Weather & Time-Zone tracker web app
 ### 🎨 UI Redesign – C++ Website
 Modern responsive UI/UX redesign  
 **Tech:** HTML, CSS
-
+🔗 Live: https://akashyatinjain.github.io/Redesign-off-Cplus-plus-/video.html
 ## 🎯 2025 Goals
 - Strong DSA foundation
 - Backend system design
