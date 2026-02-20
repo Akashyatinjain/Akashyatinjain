@@ -32,12 +32,17 @@ Modern responsive UI/UX redesign
 **Tech:** HTML, CSS                   
 🔗 Live: https://akashyatinjain.github.io/Redesign-off-Cplus-plus-/video.html
 
-## 🎯 2025 Goals
+
+### 🎮 Simon Game
+A playfulGame with sounds and mind 
+🔗 Live: https://akashyatinjain.github.io/Simon-Game/
+
+## 🎯 2026 Goals
 - Strong DSA foundation
 - Backend system design
 - Cloud basics (AWS)
 
-📫 Email: aj0881871@student.sfit.ac.in
+📫 Email: aj0881871@gmail.com
 
 ## 📈 Contribution Graph
 
