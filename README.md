@@ -34,7 +34,8 @@ Modern responsive UI/UX redesign
 
 
 ### 🎮 Simon Game
-A playfulGame with sounds and mind                                                                                                                                                                                   
+A playfulGame with sounds and mind   
+**Tech:** HTML, CSS ,Javascript                                                                                                                                                                                      
 🔗 Live: https://akashyatinjain.github.io/Simon-Game/
 
 ## 🎯 2026 Goals
