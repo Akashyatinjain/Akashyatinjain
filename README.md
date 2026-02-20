@@ -23,18 +23,19 @@ Ayurveda-based health platform calculating protein & wellness metrics
 👥 Team project (2 members)                    
 🔗 Live: https://sih-rho-liard.vercel.app/
 
-### 🌍 World Tracker
-Weather & Time-Zone tracker web app  
-**Tech:** React, Node.js, PostgreSQL
+### 🌿 Keeper Note 
+Note-taking application with CRUD operations and dynamic state management.
+**Tech:** JavaScript, React                                                                                                                                                                                          
+🔗 Live: https://keeper-not-app.vercel.app/
 
 ### 🎨 UI Redesign – C++ Website
 Modern responsive UI/UX redesign  
-**Tech:** HTML, CSS                   
+**Tech:** HTML, CSS                                                                               
 🔗 Live: https://akashyatinjain.github.io/Redesign-off-Cplus-plus-/video.html
 
 
 ### 🎮 Simon Game
-A playfulGame with sounds and mind   
+Interactive memory-based game implementing DOM manipulation and event-driven logic.
 **Tech:** HTML, CSS ,Javascript                                                                                                                                                                                      
 🔗 Live: https://akashyatinjain.github.io/Simon-Game/
 
