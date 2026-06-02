@@ -1,46 +1,54 @@
-Hi, I'm Akash Jain 👋
-🎓 Information Technology Undergraduate (CGPA: 8.31)
-🏫 St. Francis Institute of Technology, Mumbai
+# Hi, I'm Akash Jain 👋
+
+🎓 Information Technology Undergraduate (CGPA: 8.31)  
+🏫 St. Francis Institute of Technology, Mumbai  
 💻 Full-Stack & Backend Developer & Frontend Developer | Cloud & Data Aspirant
 
-🛠 Technical Skills
-Frontend: HTML, CSS, JavaScript, React
-Backend: Node.js, Express.js
-Database: PostgreSQL
-Tools: Git, GitHub, Postman, Vercel, Render, pgAdmin
-Languages: C, Java, Python (Basic)
-🚀 Projects
-💰 Finance Tracker
-Full-stack personal finance tracker with budgeting, reports, trends & notifications
-Tech: React, Node.js, PostgreSQL
+## 🛠 Technical Skills
+- Frontend: HTML, CSS, JavaScript, React
+- Backend: Node.js, Express.js
+- Database: PostgreSQL
+- Tools: Git, GitHub, Postman, Vercel, Render, pgAdmin
+- Languages: C, Java, Python (Basic)
+
+## 🚀 Projects
+### 💰 Finance Tracker
+Full-stack personal finance tracker with budgeting, reports, trends & notifications  
+**Tech:** React, Node.js, PostgreSQL                    
 🔗 Live: https://budget-tracker-no3.vercel.app/
 
-🌿 SWASTHYA (SIH Project)
-Ayurveda-based health platform calculating protein & wellness metrics
-Tech: JavaScript, React
-👥 Team project (2 members)
+### 🌿 SWASTHYA (SIH Project)
+Ayurveda-based health platform calculating protein & wellness metrics  
+**Tech:** JavaScript, React  
+👥 Team project (2 members)                    
 🔗 Live: https://sih-rho-liard.vercel.app/
 
-🌿 Keeper Note
-Note-taking application with CRUD operations and dynamic state management. Tech: JavaScript, React
+### 🌿 Keeper Note 
+Note-taking application with CRUD operations and dynamic state management.
+**Tech:** JavaScript, React                                                                                                                                                                                          
 🔗 Live: https://keeper-not-app.vercel.app/
 
-🎨 UI Redesign – C++ Website
-Modern responsive UI/UX redesign
-Tech: HTML, CSS
+### 🎨 UI Redesign – C++ Website
+Modern responsive UI/UX redesign  
+**Tech:** HTML, CSS                                                                               
 🔗 Live: https://akashyatinjain.github.io/Redesign-off-Cplus-plus-/video.html
 
-🎮 Simon Game
-Interactive memory-based game implementing DOM manipulation and event-driven logic. Tech: HTML, CSS ,Javascript
+
+### 🎮 Simon Game
+Interactive memory-based game implementing DOM manipulation and event-driven logic.
+**Tech:** HTML, CSS ,Javascript                                                                                                                                                                                      
 🔗 Live: https://akashyatinjain.github.io/Simon-Game/
 
-🎯 2026 Goals
-Strong DSA foundation
-Backend system design
-Cloud basics (AWS)
+## 🎯 2026 Goals
+- Strong DSA foundation
+- Backend system design
+- Cloud basics (AWS)
+
 📫 Email: aj0881871@gmail.com
 
+## 📈 Contribution Graph
 
+![GitHub Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=Akashyatinjain&bg_color=0d1117&color=ff00ff&line=00ffcc&point=ffffff&area=true&hide_border=true)
 ## 🌐 Socials:
 [![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/akash_jain_5) [![Stack Overflow](https://img.shields.io/badge/-Stackoverflow-FE7A16?logo=stack-overflow&logoColor=white)](https://stackoverflow.com/users/32794931)
 
