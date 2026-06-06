@@ -13,7 +13,7 @@
 
 ## 🚀 Projects
 ### ☁️ Mini Google Drive
-Full-stack cloud storage platform with file uploads, folders, sharing, starring, search & authentication
+Full-stack cloud storage platform with file uploads, folders, sharing, starring, search & authentication                                                                                                         
 **Tech:** React, Node.js, Express.js, PostgreSQL, Prisma, JWT, Cloudinary                                                                                                                                     
 🔗 **Live:** https://your-mini-drive.vercel.app/
 
