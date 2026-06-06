@@ -15,7 +15,7 @@
 ### ☁️ Mini Google Drive
 Full-stack cloud storage platform with file uploads, folders, sharing, starring, search & authentication                                                                                                         
 **Tech:** React, Node.js, Express.js, PostgreSQL, Prisma, JWT, Cloudinary                                                                                                                                     
-🔗 **Live:** https://your-mini-drive.vercel.app/
+🔗 **Live:** https://data-stock.vercel.app/login
 
 ### 💰 Finance Tracker
 Full-stack personal finance tracker with budgeting, reports, trends & notifications  
