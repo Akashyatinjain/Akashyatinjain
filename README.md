@@ -12,10 +12,9 @@
 - Languages: C, Java, Python (Basic)
 
 ## 🚀 Projects
-## ☁️ Mini Google Drive
-
+### ☁️ Mini Google Drive
 Full-stack cloud storage platform with file uploads, folders, sharing, starring, search & authentication
-**Tech:** React, Node.js, Express.js, PostgreSQL, Prisma, JWT, Cloudinary
+**Tech:** React, Node.js, Express.js, PostgreSQL, Prisma, JWT, Cloudinary                                                                                                                                     
 🔗 **Live:** https://your-mini-drive.vercel.app/
 
 ### 💰 Finance Tracker
