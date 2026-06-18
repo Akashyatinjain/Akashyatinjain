@@ -1,6 +1,6 @@
 # Hi, I'm Akash Jain 👋
 
-🎓 Information Technology Undergraduate (CGPA: 8.31)  
+🎓 Information Technology Undergraduate (CGPA: 8.50)  
 🏫 St. Francis Institute of Technology, Mumbai  
 💻 Full-Stack & Backend Developer & Frontend Developer | Cloud & Data Aspirant
 
