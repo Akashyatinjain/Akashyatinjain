@@ -152,6 +152,7 @@ console.log("Let's build something amazing together 🚀");
 
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 ```text
 ██╗  ██╗███████╗██╗   ██╗    ██╗███╗   ███╗     █████╗ ██╗  ██╗ █████╗ ███████╗██╗  ██╗         ██╗ █████╗ ██╗███╗   ██╗
 ██║  ██║██╔════╝╚██╗ ██╔╝    ██║████╗ ████║    ██╔══██╗██║ ██╔╝██╔══██╗██╔════╝██║  ██║         ██║██╔══██╗██║████╗  ██║
@@ -237,4 +238,67 @@ Currently exploring Docker, AWS, and System Design while building production-rea
 ---
 
 # 🚀 Featured Projects
+| Project | Description | Tech Stack | Live Demo |
+|---------|-------------|------------|-----------|
+| **☁️ DataStock** ⭐ | Google Drive inspired cloud storage platform with authentication, folders, file uploads, sharing and Cloudinary integration. | React • Node.js • Express • PostgreSQL • Prisma | [Live](https://data-stock.vercel.app/) |
+| **💰 Finance Tracker** | Personal finance manager with budgeting, analytics, CSV import, notifications and dashboard. | React • Node.js • PostgreSQL | [Live](https://budget-tracker-no3.vercel.app/) |
+| **🌿 SWASTHYA** | SIH project for Ayurveda-based health recommendations and nutrition tracking. | React • JavaScript | [Live](https://sih-rho-liard.vercel.app/) |
+| **📝 Keeper Notes** | Responsive CRUD note-taking application using React. | React | [Live](https://keeper-not-app.vercel.app/) |
 
+---
+
+# 📊 GitHub Statistics
+
+<p align="center">
+
+<img height="170" src="https://github-readme-stats.vercel.app/api?username=Akashyatinjain&show_icons=true&theme=tokyonight&hide_border=true"/>
+
+<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Akashyatinjain&layout=compact&theme=tokyonight&hide_border=true"/>
+
+</p>
+
+---
+
+# 🌐 Connect With Me
+
+<p align="center">
+
+<a href="https://github.com/Akashyatinjain">
+<img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github"/>
+</a>
+
+<a href="https://www.linkedin.com/in/akash-jain">
+<img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin"/>
+</a>
+
+<a href="mailto:aj0881871@gmail.com">
+<img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail"/>
+</a>
+
+<a href="https://leetcode.com/u/Akashyatinjain/">
+<img src="https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black"/>
+</a>
+
+</p>
+
+---
+
+# 💡 Currently Exploring
+
+- 🐳 Docker & Containerization
+- ☁️ AWS Cloud
+- ⚙️ System Design
+- 📚 Advanced Java
+- 🚀 Backend Engineering
+
+---
+
+<div align="center">
+
+### ⭐ Thanks for visiting my profile!
+
+*"Code. Learn. Build. Repeat."*
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:00ff99,100:0066ff&height=120&section=footer"/>
+
+</div>
