@@ -10,7 +10,7 @@
 <a href="https://leetcode.com/u/Akashyatinjain/"><img src="https://img.shields.io/badge/LeetCode-FFA116?style=flat&logo=leetcode&logoColor=black" /></a>
 <a href="https://profolio-psi-blue.vercel.app/"><img src="https://img.shields.io/badge/Portfolio-000000?style=flat&logo=vercel&logoColor=white" /></a>
 <a href="mailto:aj0881871@gmail.com"><img src="https://img.shields.io/badge/Gmail-EA4335?style=flat&logo=gmail&logoColor=white" /></a>
-<a href="#"><img src="https://img.shields.io/badge/Resume-4285F4?style=flat&logo=googledrive&logoColor=white" /></a>
+<a href="https://github.com/Akashyatinjain/Akashyatinjain/raw/main/resume.pdf"><img src="https://img.shields.io/badge/Resume-4285F4?style=flat&logo=googledrive&logoColor=white" /></a>
 </p>
 
 ---
