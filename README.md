@@ -54,6 +54,17 @@ const current = {
 }
 ```
 
+## > pinned.projects
+
+| Project | Description | Stack |
+|---------|-------------|-------|
+| **💰 Finance Tracker** | Personal finance tracker with analytics, budgeting, CSV import and notifications | React • Node.js • PostgreSQL |
+| **☁️ DataStock** | Google Drive inspired cloud storage with authentication, folders & file sharing | React • Express • PostgreSQL • Prisma |
+| **🌿 SWASTHYA** | AI-powered Ayurveda health platform built for SIH | React • Node.js |
+| **📝 Keeper Notes** | CRUD note management application | React |
+| **🎨 C++ Website Redesign** | Modern responsive UI redesign | HTML • CSS |
+| **🎮 Simon Game** | Interactive memory game | HTML • CSS • JavaScript |
+
 ## 🛠 Technical Skills
 - Frontend: HTML, CSS, JavaScript, React
 - Backend: Node.js, Express.js
