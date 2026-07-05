@@ -10,7 +10,9 @@
 <h3 align="center">
 Building clean, functional software.
 </h3>
-
+<p align="center">
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=28&pause=1000&color=00FF41&center=true&vCenter=true&width=700&lines=Building+clean%2C+functional+software.;Full-Stack+Developer.;Java+%7C+React+%7C+Node.js;Always+Learning+Something+New."/>
+</p>
 ---
 
 ```bash
