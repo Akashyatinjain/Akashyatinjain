@@ -1,8 +1,8 @@
 <h1 align="center">Akash Jain</h1>
-<h3 align="center">Full-Stack Developer — Java, React & Node.js</h3>
+<h3 align="center">3rd Year IT Student @ SFIT · Full-Stack Dev in Training — Java, React & Node.js</h3>
 
 <p align="center">
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&color=00FF41&center=true&vCenter=true&width=600&lines=Building+clean%2C+functional+software.;3rd+Year+IT+Student+%40+SFIT;Solving+DSA+in+Java+%7C+61%2B+problems." />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&color=00FF41&center=true&vCenter=true&width=600&lines=Building+clean%2C+functional+software.;Solving+DSA+in+Java+%7C+61%2B+problems.;Open+to+internships+%26+collaborations." />
 </p>
 
 <p align="center">
@@ -10,6 +10,7 @@
 <a href="https://leetcode.com/u/Akashyatinjain/"><img src="https://img.shields.io/badge/LeetCode-FFA116?style=flat&logo=leetcode&logoColor=black" /></a>
 <a href="https://profolio-psi-blue.vercel.app/"><img src="https://img.shields.io/badge/Portfolio-000000?style=flat&logo=vercel&logoColor=white" /></a>
 <a href="mailto:aj0881871@gmail.com"><img src="https://img.shields.io/badge/Gmail-EA4335?style=flat&logo=gmail&logoColor=white" /></a>
+<a href="#"><img src="https://img.shields.io/badge/Resume-4285F4?style=flat&logo=googledrive&logoColor=white" /></a>
 </p>
 
 ---
