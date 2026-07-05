@@ -1,8 +1,31 @@
-# Hi, I'm Akash Jain 👋
+```text
+ █████╗ ██╗  ██╗ █████╗ ███████╗██╗  ██╗
+██╔══██╗██║ ██╔╝██╔══██╗██╔════╝██║  ██║
+███████║█████╔╝ ███████║███████╗███████║
+██╔══██║██╔═██╗ ██╔══██║╚════██║██╔══██║
+██║  ██║██║  ██╗██║  ██║███████║██║  ██║
+╚═╝  ╚═╝╚═╝  ╚═╝╚═╝  ╚═╝╚══════╝╚═╝  ╚═╝
+```
 
-🎓 Information Technology Undergraduate (CGPA: 8.50)  
-🏫 St. Francis Institute of Technology, Mumbai  
-💻 Full-Stack & Backend Developer & Frontend Developer | Cloud & Data Aspirant
+<h3 align="center">
+Building clean, functional software.
+</h3>
+
+---
+
+```bash
+visitor@github:~$ cat ./about_me.txt
+
+Name      : Akash Jain
+Handle    : Akashyatinjain
+Role      : Full-Stack Developer
+College   : St. Francis Institute of Technology
+Focus     : Java • DSA • React • Node.js • PostgreSQL • Cloud
+Learning  : Docker • AWS • System Design
+Projects  : Finance Tracker | DataStock
+Status    : Always building something 🚀
+Open To   : Collaborations & Open Source
+```
 
 ## 🛠 Technical Skills
 - Frontend: HTML, CSS, JavaScript, React
