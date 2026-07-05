@@ -26,6 +26,19 @@ I'm an IT undergraduate at St. Francis Institute of Technology who builds full-s
 
 ---
 
+## DSA Progress
+
+<p align="center">
+<img src="https://leetcard.jacoblin.cool/Akashyatinjain?theme=dark&ext=heatmap" alt="Akashyatinjain's LeetCode stats" />
+</p>
+
+- 🔷 61+ problems solved on LeetCode (Java)
+- 🔷 Advanced: Dynamic Programming, Divide & Conquer, Trie
+- 🔷 Intermediate: Binary Search, Hash Table, Math
+- 🔷 Fundamental: Array, Sorting, Two Pointers
+
+---
+
 ## Projects
 
 | Project | Description | Stack | Link |
@@ -49,6 +62,8 @@ I'm an IT undergraduate at St. Francis Institute of Technology who builds full-s
 **Database** &nbsp; ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=flat&logo=postgresql&logoColor=white) ![Prisma](https://img.shields.io/badge/Prisma-3982CE?style=flat&logo=Prisma&logoColor=white) ![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?style=flat&logo=mongodb&logoColor=white) ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat&logo=mysql&logoColor=white)
 
 **Tools & Cloud** &nbsp; ![Git](https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white) ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white) ![AWS](https://img.shields.io/badge/AWS-FF9900?style=flat&logo=amazon-aws&logoColor=white) ![Vercel](https://img.shields.io/badge/Vercel-000000?style=flat&logo=vercel&logoColor=white) ![Postman](https://img.shields.io/badge/Postman-FF6C37?style=flat&logo=postman&logoColor=white)
+
+**Design** &nbsp; ![Figma](https://img.shields.io/badge/Figma-F24E1E?style=flat&logo=figma&logoColor=white) ![Canva](https://img.shields.io/badge/Canva-00C4CC?style=flat&logo=Canva&logoColor=white)
 
 ---
 
