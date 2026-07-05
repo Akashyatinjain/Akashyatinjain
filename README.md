@@ -139,8 +139,13 @@ console.log("Let's build something amazing together 🚀");
 ![](https://streak-stats.demolab.com/?user=Akashyatinjain&theme=dark&hide_border=false)<br/>
 ![](https://github-readme-stats.shion.dev/api/top-langs/?username=Akashyatinjain&theme=dark&hide_border=false&include_all_commits=false&count_private=false&layout=compact)
 
-## 🏆 GitHub Trophies
-![](https://github-profile-trophy.vercel.app/?username=Akashyatinjain&theme=radical&no-frame=false&no-bg=true&margin-w=4)
+<p align="center">
+<img src="https://komarev.com/ghpvc/?username=Akashyatinjain&label=PROFILE+VIEWS&color=00ff66&style=for-the-badge"/>
+</p>
 
+<p align="center">
+
+```text
+// Building scalable software • One commit at a time 🚀
 
 
