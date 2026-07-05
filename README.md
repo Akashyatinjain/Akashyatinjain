@@ -167,27 +167,3 @@ Right now I'm deepening my skills in **Docker, AWS, and System Design** while sh
 
 
 
-
-
-
-
-# 👋 Hi, I'm Akash Yatin Jain (Akashyatinjain)
-
-<p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=28&pause=1000&color=00FF41&center=true&vCenter=true&width=700&lines=Full-Stack+Developer;Building+Scalable+Web+Apps;Java+%7C+React+%7C+Node.js;Aspiring+Cloud+%26+Backend+Engineer;Always+Learning+Something+New+%F0%9F%9A%80" alt="Typing SVG" />
-</p>
-
-<div align="center">
-  <a href="https://github.com/Akashyatinjain"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
-  <a href="https://www.linkedin.com/in/akash-yatin-jain"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
-  <a href="https://leetcode.com/u/Akashyatinjain/"><img src="https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black" alt="LeetCode" /></a>
-  <a href="https://profolio-psi-blue.vercel.app/"><img src="https://img.shields.io/badge/Portfolio-4285F4?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio" /></a>
-  <a href="mailto:aj0881871@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
-</div>
-
----
-
-## 📍 About Me
-
-```bash
-visitor@github:~$ cat ./about_me.txt
