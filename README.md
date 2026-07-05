@@ -24,7 +24,9 @@ Projects  : Finance Tracker • DataStock
 Status    : Learning every day 📈
 Collab    : OPEN — reach out anytime 🤝
 ```
-
+<p align="center">
+<img src="https://raw.githubusercontent.com/Platane/snk/output/github-contribution-grid-snake-dark.svg"/>
+</p>
 ## 🛠 Technical Skills
 - Frontend: HTML, CSS, JavaScript, React
 - Backend: Node.js, Express.js
