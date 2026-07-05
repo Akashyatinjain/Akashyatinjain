@@ -17,13 +17,12 @@ visitor@github:~$ cat ./about_me.txt
 
 Name      : Akash Jain
 Handle    : Akashyatinjain
-Role      : Full-Stack Developer
 College   : St. Francis Institute of Technology
-Focus     : Java • DSA • React • Node.js • PostgreSQL • Cloud
+Focus     : Java • DSA • Full Stack Development
 Learning  : Docker • AWS • System Design
-Projects  : Finance Tracker | DataStock
-Status    : Always building something 🚀
-Open To   : Collaborations & Open Source
+Projects  : Finance Tracker • DataStock
+Status    : Learning every day 📈
+Collab    : OPEN — reach out anytime 🤝
 ```
 
 ## 🛠 Technical Skills
