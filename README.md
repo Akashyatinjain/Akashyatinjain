@@ -28,6 +28,32 @@ Collab    : OPEN — reach out anytime 🤝
 <img src="https://raw.githubusercontent.com/Platane/snk/output/github-contribution-grid-snake-dark.svg"/>
 </p>
 
+## > currently.working_on
+
+```javascript
+const current = {
+   learning : [
+      "Docker",
+      "AWS Cloud",
+      "System Design",
+      "Advanced Java"
+   ],
+
+   building : [
+      "Finance Tracker v2",
+      "DataStock",
+      "Portfolio Website"
+   ],
+
+   solving : {
+      platform : "LeetCode",
+      focus    : "DSA (Java)"
+   },
+
+   goal_2026 : "Crack a top software engineering internship."
+}
+```
+
 ## 🛠 Technical Skills
 - Frontend: HTML, CSS, JavaScript, React
 - Backend: Node.js, Express.js
