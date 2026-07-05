@@ -287,6 +287,17 @@ Currently exploring Docker, AWS, and System Design while building production-rea
 
 ---
 
+# 📊 GitHub Stats:
+![](https://github-readme-stats.shion.dev/api?username=Akashyatinjain&theme=dark&hide_border=false&include_all_commits=false&count_private=false)<br/>
+![](https://streak-stats.demolab.com/?user=Akashyatinjain&theme=dark&hide_border=false)<br/>
+![](https://github-readme-stats.shion.dev/api/top-langs/?username=Akashyatinjain&theme=dark&hide_border=false&include_all_commits=false&count_private=false&layout=compact)
+
+<p align="center">
+<img src="https://komarev.com/ghpvc/?username=Akashyatinjain&label=PROFILE+VIEWS&color=00ff66&style=for-the-badge"/>
+</p>
+
+<p align="center">
+---
 ## 📈 Contribution Graph
 
 ![GitHub Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=Akashyatinjain&bg_color=0d1117&color=ff00ff&line=00ffcc&point=ffffff&area=true&hide_border=true)
