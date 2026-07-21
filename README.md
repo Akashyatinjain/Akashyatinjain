@@ -187,15 +187,15 @@ Most storage apps only handle uploads. I wanted to understand how production-lev
 
 ### 🚀 Build Progress
 
-\`\`\`text
-Authentication          ██████████ 100%
-Cloud Upload             ██████████ 100%
-Folder Management        ██████████ 100%
-Dashboard                ██████████ 100%
-Search                   █████████░  90%
-Sharing                  ████████░░  80%
-Notifications            ███████░░░  70%
-\`\`\`
+<p align="center">
+<img src="https://progress-bar.dev/100/?title=Authentication&width=250&color=00e676"/><br>
+<img src="https://progress-bar.dev/100/?title=Cloud%20Upload&width=250&color=00e676"/><br>
+<img src="https://progress-bar.dev/100/?title=Folder%20Management&width=250&color=00e676"/><br>
+<img src="https://progress-bar.dev/100/?title=Dashboard&width=250&color=00e676"/><br>
+<img src="https://progress-bar.dev/90/?title=Search&width=250&color=58a6ff"/><br>
+<img src="https://progress-bar.dev/80/?title=Sharing&width=250&color=58a6ff"/><br>
+<img src="https://progress-bar.dev/70/?title=Notifications&width=250&color=58a6ff"/>
+</p>
 
 ### 📈 What's Next
 
@@ -273,17 +273,17 @@ Future ── Software Engineering · Cloud
 
 ## 📌 Current Focus
 
-\`\`\`text
-Java                ██████████ 100%
-DSA                 █████████░  90%
-Backend             ██████████ 100%
-React               ██████████ 100%
-Node.js             ██████████ 100%
-Docker              ███████░░░  70%
-AWS                 ██████░░░░  60%
-System Design       █████░░░░░  50%
-CI/CD               █████░░░░░  50%
-\`\`\`
+<p align="center">
+<img src="https://progress-bar.dev/100/?title=Java&width=220&color=00e676"/><br>
+<img src="https://progress-bar.dev/90/?title=DSA&width=220&color=00e676"/><br>
+<img src="https://progress-bar.dev/100/?title=Backend&width=220&color=00e676"/><br>
+<img src="https://progress-bar.dev/100/?title=React&width=220&color=00e676"/><br>
+<img src="https://progress-bar.dev/100/?title=Node.js&width=220&color=00e676"/><br>
+<img src="https://progress-bar.dev/70/?title=Docker&width=220&color=58a6ff"/><br>
+<img src="https://progress-bar.dev/60/?title=AWS&width=220&color=58a6ff"/><br>
+<img src="https://progress-bar.dev/50/?title=System%20Design&width=220&color=58a6ff"/><br>
+<img src="https://progress-bar.dev/50/?title=CI%2FCD&width=220&color=58a6ff"/>
+</p>
 
 ## 🎯 2026 Goals
 
@@ -294,8 +294,6 @@ CI/CD               █████░░░░░  50%
 - 🔄 Contribute to Open Source
 - 🎯 Build production-grade, enterprise-level applications
 - 🎯 Secure a Software Engineering internship
-
----
 
 ## 🛠 Tech Arsenal
 
