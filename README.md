@@ -29,7 +29,7 @@
 
 ## ⚡ Boot Sequence
 
-\`\`\`text
+```text
 ██████████████████████████████████████████
 > Initializing Developer Profile...
 ██████████████████████████████████████████
@@ -47,7 +47,7 @@ Current Mission ::
   → Exploring Docker & AWS
 
 Status :: ████████████ ONLINE ████████████
-\`\`\`
+```
 
 > 🧠 **Engineering Philosophy**
 > Great software comes from continuously refining both the code and the experience built on top of it. I like turning ideas into polished, scalable applications — and using every project as a reason to learn something new.
@@ -146,7 +146,7 @@ DataStock is a full-stack cloud storage platform built to deliver a seamless fil
 
 ### 🏗 Architecture
 
-\`\`\`text
+```text
               USER
                │
                ▼
@@ -166,7 +166,7 @@ DataStock is a full-stack cloud storage platform built to deliver a seamless fil
           Cloudinary CDN
                │
         Secure File URLs
-\`\`\`
+```
 
 ### 🛠 Tech Stack
 
@@ -250,7 +250,7 @@ Modern, responsive UI/UX redesign of a legacy website. \`HTML\` \`CSS\`
 
 ## 📈 Development Journey
 
-\`\`\`text
+```text
 2024 ── Started Programming
         ├── HTML
         ├── CSS
@@ -267,7 +267,7 @@ Modern, responsive UI/UX redesign of a legacy website. \`HTML\` \`CSS\`
           ▼
 Future ── Software Engineering · Cloud
           Scalable Systems · Open Source
-\`\`\`
+```
 
 ---
 
