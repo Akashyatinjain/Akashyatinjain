@@ -151,16 +151,6 @@ hard_part:  arbitrarily-deep folder trees in
 <td>Classic memory game rebuilt from scratch in vanilla JS — DOM manipulation and event handling, no shortcuts.</td>
 <td><a href="https://akashyatinjain.github.io/Simon-Game/"><code>run ▶</code></a></td>
 </tr>
-<tr>
-<td><code>⚡ redis-cache-layer</code></td>
-<td>Production-ready Redis caching layer on top of an Express + MongoDB API — local Docker Redis for dev, Upstash TLS in production, single-env-var setup.</td>
-<td><!-- 🔴 ADD HERE: link to this repo/demo --><code>run ▶</code></td>
-</tr>
-<tr>
-<td><code>📊 appointment-analytics</code></td>
-<td>Dark-themed appointment trends dashboard — Redux Toolkit + Recharts, month-by-month breakdown, custom tooltips, peak-month badge.</td>
-<td><!-- 🔴 ADD HERE: link to this repo/demo --><code>run ▶</code></td>
-</tr>
 </table>
 
 <br>
@@ -233,6 +223,9 @@ hard_part:  arbitrarily-deep folder trees in
 <p align="center">
 <img src="https://github-profile-trophy.vercel.app/?username=Akashyatinjain&theme=algolia&no-frame=true&no-bg=true&column=4&margin-w=8&margin-h=8"/>
 </p>
+
+![stats](./assets/github-stats.svg)
+
 
 <br>
 
