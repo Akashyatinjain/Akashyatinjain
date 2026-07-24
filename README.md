@@ -417,44 +417,47 @@ Secure File URLs
 
 
 
-
-
-
-
-
-
-
-
 <div align="center">
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=220&color=0:0D1117,35:00E676,100:0D1117&text=%20&fontSize=0&animation=fadeIn"/>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=250&color=0:0D1117,35:00E676,100:0D1117&text=%20&fontSize=0&animation=fadeIn"/>
 
-</div>
-
-<div align="center">
+<table>
+<tr><td>
 
 ```
-┌─────────────────────────────────────────────────────────┐
-│  akash@sfit:~$ whoami                                    │
-└─────────────────────────────────────────────────────────┘
+╭──────────────────────────────────────────────────────────╮
+│  akash@sfit ~ %  whoami                                   │
+╰──────────────────────────────────────────────────────────╯
 ```
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=26&pause=1200&color=00E676&center=true&vCenter=true&width=760&lines=AKASH+JAIN;Full-Stack+Engineer;6%2B+production+apps+shipped+solo;auth+%C2%B7+databases+%C2%B7+cloud+%C2%B7+deploy" />
+</td></tr>
+</table>
+
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=28&pause=1200&color=00E676&center=true&vCenter=true&width=800&lines=AKASH+JAIN;Full-Stack+Engineer;6%2B+production+apps+shipped+solo;auth+%C2%B7+databases+%C2%B7+cloud+%C2%B7+deploy;open+to+SWE+internships+2026" />
 
 <br>
 
-`root access: full-stack` &nbsp;·&nbsp; `status: open to SWE internships 2026` &nbsp;·&nbsp; `uptime: shipping since day 1`
+<img src="https://img.shields.io/badge/root_access-full--stack-00E676?style=for-the-badge&labelColor=0D1117"/>
+<img src="https://img.shields.io/badge/status-open_to_2026_internships-00E676?style=for-the-badge&labelColor=0D1117"/>
+<img src="https://img.shields.io/badge/uptime-shipping_since_day_1-00E676?style=for-the-badge&labelColor=0D1117"/>
 
-<br>
+<br><br>
 
 <a href="mailto:aj0881871@gmail.com"><img src="https://img.shields.io/badge/-EMAIL-0D1117?style=for-the-badge&logo=gmail&logoColor=00E676&labelColor=0D1117"/></a>
 <a href="https://profolio-akashjain.vercel.app/"><img src="https://img.shields.io/badge/-PORTFOLIO-0D1117?style=for-the-badge&logo=vercel&logoColor=00E676&labelColor=0D1117"/></a>
 <a href="https://www.linkedin.com/in/akash-yatin-jain"><img src="https://img.shields.io/badge/-LINKEDIN-0D1117?style=for-the-badge&logo=linkedin&logoColor=00E676&labelColor=0D1117"/></a>
 <a href="https://leetcode.com/u/Akashyatinjain/"><img src="https://img.shields.io/badge/-LEETCODE-0D1117?style=for-the-badge&logo=leetcode&logoColor=00E676&labelColor=0D1117"/></a>
+<a href="https://github.com/Akashyatinjain"><img src="https://img.shields.io/badge/-GITHUB-0D1117?style=for-the-badge&logo=github&logoColor=00E676&labelColor=0D1117"/></a>
+
+<br><br>
+
+<img src="https://komarev.com/ghpvc/?username=Akashyatinjain&style=for-the-badge&color=00E676&labelColor=0D1117&label=PROFILE+VIEWS"/>
 
 </div>
 
 <br>
+
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:0D1117,100:0D1117&height=2&width=100%25"/>
 
 ```diff
 + $ cat about.md
@@ -466,6 +469,8 @@ Currently **Joint Tech Lead @ IEEE SFIT**, running technical events and mentorin
 
 <br>
 
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:0D1117,100:0D1117&height=2&width=100%25"/>
+
 ```diff
 + $ ./run --project=datastock --flagship=true
 ```
@@ -475,8 +480,10 @@ Currently **Joint Tech Lead @ IEEE SFIT**, running technical events and mentorin
 <br><sub><i>A Google Drive clone — but the hard parts weren't skipped</i></sub>
 </div>
 
+<br>
+
 <!-- 🔴 ADD HERE: a 6-10 second GIF of the dashboard — upload a file, open a folder, show search.
-     This one visual beats every badge below combined. Drop it right here:
+     This one visual beats every badge in this file combined. Drop it right here:
      ![DataStock demo](link-to-your-gif.gif) -->
 
 <table>
@@ -499,7 +506,8 @@ hard_part:  arbitrarily-deep folder trees in
 - 🖥️ Fully responsive dashboard, live notifications
 
 **Stack**
-`React·Vite` `Tailwind` `Node·Express` `PostgreSQL` `Prisma` `Cloudinary` `Vercel+Render`
+
+<img src="https://img.shields.io/badge/React-20232a?style=flat-square&logo=react&logoColor=61DAFB"/> <img src="https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white"/> <img src="https://img.shields.io/badge/Tailwind-38B2AC?style=flat-square&logo=tailwind-css&logoColor=white"/> <img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=node.js&logoColor=white"/> <img src="https://img.shields.io/badge/Express-404d59?style=flat-square&logo=express&logoColor=61DAFB"/> <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white"/> <img src="https://img.shields.io/badge/Prisma-3982CE?style=flat-square&logo=Prisma&logoColor=white"/> <img src="https://img.shields.io/badge/Cloudinary-3448C5?style=flat-square&logo=cloudinary&logoColor=white"/>
 
 **In progress:** AI file search · team collaboration · version history · real-time sync
 
@@ -542,6 +550,8 @@ hard_part:  arbitrarily-deep folder trees in
 
 <br>
 
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:0D1117,100:0D1117&height=2&width=100%25"/>
+
 ```diff
 + $ ls ./more-builds
 ```
@@ -572,6 +582,8 @@ hard_part:  arbitrarily-deep folder trees in
 
 <br>
 
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:0D1117,100:0D1117&height=2&width=100%25"/>
+
 ```diff
 + $ cat achievements.log
 ```
@@ -588,23 +600,41 @@ hard_part:  arbitrarily-deep folder trees in
 
 <br>
 
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:0D1117,100:0D1117&height=2&width=100%25"/>
+
 ```diff
 + $ neofetch --stack
 ```
 
 <div align="center">
 
+<sub>**languages**</sub>
+<br>
 <img src="https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white"/> <img src="https://img.shields.io/badge/JavaScript-323330?style=flat-square&logo=javascript&logoColor=F7DF1E"/> <img src="https://img.shields.io/badge/Python-3670A0?style=flat-square&logo=python&logoColor=ffdd54"/> <img src="https://img.shields.io/badge/C-00599C?style=flat-square&logo=c&logoColor=white"/>
+
 <br><br>
-<img src="https://img.shields.io/badge/React-20232a?style=flat-square&logo=react&logoColor=61DAFB"/> <img src="https://img.shields.io/badge/TailwindCSS-38B2AC?style=flat-square&logo=tailwind-css&logoColor=white"/> <img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=node.js&logoColor=white"/> <img src="https://img.shields.io/badge/Express.js-404d59?style=flat-square&logo=express&logoColor=61DAFB"/>
+
+<sub>**frontend**</sub>
+<br>
+<img src="https://img.shields.io/badge/React-20232a?style=flat-square&logo=react&logoColor=61DAFB"/> <img src="https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white"/> <img src="https://img.shields.io/badge/TailwindCSS-38B2AC?style=flat-square&logo=tailwind-css&logoColor=white"/>
+
 <br><br>
-<img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white"/> <img src="https://img.shields.io/badge/Prisma-3982CE?style=flat-square&logo=Prisma&logoColor=white"/> <img src="https://img.shields.io/badge/MongoDB-4ea94b?style=flat-square&logo=mongodb&logoColor=white"/>
+
+<sub>**backend & data**</sub>
+<br>
+<img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=node.js&logoColor=white"/> <img src="https://img.shields.io/badge/Express.js-404d59?style=flat-square&logo=express&logoColor=61DAFB"/> <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white"/> <img src="https://img.shields.io/badge/Prisma-3982CE?style=flat-square&logo=Prisma&logoColor=white"/> <img src="https://img.shields.io/badge/MongoDB-4ea94b?style=flat-square&logo=mongodb&logoColor=white"/>
+
 <br><br>
+
+<sub>**tools & cloud**</sub>
+<br>
 <img src="https://img.shields.io/badge/Docker-0db7ed?style=flat-square&logo=docker&logoColor=white"/> <img src="https://img.shields.io/badge/AWS-FF9900?style=flat-square&logo=amazon-aws&logoColor=white"/> <img src="https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white"/> <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white"/> <img src="https://img.shields.io/badge/Postman-FF6C37?style=flat-square&logo=postman&logoColor=white"/> <img src="https://img.shields.io/badge/Figma-F24E1E?style=flat-square&logo=figma&logoColor=white"/>
 
 </div>
 
 <br>
+
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:0D1117,100:0D1117&height=2&width=100%25"/>
 
 ```diff
 + $ git log --stats --author=akash
@@ -617,17 +647,44 @@ hard_part:  arbitrarily-deep folder trees in
 <p align="center">
 <img src="https://streak-stats.demolab.com?user=Akashyatinjain&theme=github-dark-blue&hide_border=true&background=0D1117&ring=00E676&fire=00E676&currStreakLabel=00E676"/>
 </p>
+<p align="center">
+<img src="https://github-profile-trophy.vercel.app/?username=Akashyatinjain&theme=algolia&no-frame=true&no-bg=true&column=4&margin-w=8&margin-h=8"/>
+</p>
 
 <br>
+
+```diff
++ $ ./contribution-graph --animate
+```
+
+<p align="center">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Akashyatinjain/Akashyatinjain/output/github-contribution-grid-snake-dark.svg"/>
+  <img alt="contribution snake animation" src="https://raw.githubusercontent.com/Akashyatinjain/Akashyatinjain/output/github-contribution-grid-snake.svg"/>
+</picture>
+</p>
+
+<sub align="center">
+
+> ⚙️ **one-time setup for the snake animation above** — it needs a tiny GitHub Action, not just this README.
+> 1. In your `Akashyatinjain/Akashyatinjain` repo → `Settings → Actions → General` → enable **Read and write permissions**.
+> 2. Add `.github/workflows/snake.yml` (ask me and I'll generate it for you).
+> 3. Push once — the Action regenerates the SVG daily and the image above will start rendering automatically.
+
+</sub>
+
+<br>
+
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:0D1117,100:0D1117&height=2&width=100%25"/>
 
 <div align="center">
 
 ```
-┌─────────────────────────────────────────────────────────┐
-│  akash@sfit:~$ ./contact --urgent                        │
-│  > compiling internship applications... 2026             │
-│  > status: actively interviewing                         │
-└─────────────────────────────────────────────────────────┘
+╭──────────────────────────────────────────────────────────╮
+│  akash@sfit ~ %  ./contact --urgent                       │
+│  > compiling internship applications... 2026              │
+│  > status: actively interviewing                          │
+╰──────────────────────────────────────────────────────────╯
 ```
 
 **I reply within a day.** Send me the role — I'll walk you through DataStock's architecture live, no prep needed on your end.
@@ -638,8 +695,6 @@ hard_part:  arbitrarily-deep folder trees in
 
 <br><br>
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=110&color=0:0D1117,50:00E676,100:0D1117&section=footer"/>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=120&color=0:0D1117,50:00E676,100:0D1117&section=footer"/>
 
 </div>
-
-
