@@ -105,12 +105,7 @@ Target Role:    Software Engineering / Backend Engineering Internships (2026)
 + $ ls ./other-projects
 ```
 
-| Project | Description & Engineering Focus | Link |
-| :--- | :--- | :---: |
-| `finance-tracker` | Personal finance tracker — income/expense categorization, CSV import, relational SQL data model. | [`run ▶`](https://budget-tracker-no3.vercel.app/) |
-| `swasthya` | Smart India Hackathon finalist — Ayurveda wellness app with protein calculator & tailored suggestions. | [`run ▶`](https://sih-rho-liard.vercel.app/) |
-| `keeper-note` | Note application featuring full CRUD operations, modular state, and component isolation. | [`run ▶`](https://keeper-not-app.vercel.app/) |
-| `simon-game` | Interactive memory game built in vanilla JS with custom event handling and state machine logic. | [`run ▶`](https://akashyatinjain.github.io/Simon-Game/) |
+![Akash's Portfolio](./vscode-readme.svg)
 
 <br>
 
