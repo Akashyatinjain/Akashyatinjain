@@ -16,7 +16,7 @@
 
 <br><br>
 
-<img src="https://img.shields.io/github/actions/workflow/status/Akashyatinjain/Akashyatinjain/snake.yml?style=flat-square&logo=githubactions&logoColor=white&label=build"/>
+<img src="https://github.com/Akashyatinjain/Akashyatinjain/actions/workflows/snake.yml/badge.svg"/>
 <img src="https://img.shields.io/github/last-commit/Akashyatinjain/Akashyatinjain?style=flat-square&logo=github&logoColor=white&label=last%20commit&color=00E676"/>
 <img src="https://img.shields.io/badge/license-MIT-00E676?style=flat-square&labelColor=0D1117"/>
 
