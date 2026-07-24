@@ -105,8 +105,29 @@ Target Role:    Software Engineering / Backend Engineering Internships (2026)
 + $ ls ./other-projects
 ```
 
-![Akash's Portfolio](https://raw.githubusercontent.com/Akashyatinjain/Akashyatinjain/main/assets/vscode-readme.svg)
-
+<table>
+<tr><th align="left" width="20%">project</th><th align="left">pitch</th><th align="left" width="14%">exec</th></tr>
+<tr>
+<td><code>💰 finance-tracker</code></td>
+<td>Full personal-finance app — income/expense tracking, category-wise analytics, monthly reports, CSV import. Real CRUD, real relational data.</td>
+<td><a href="https://budget-tracker-no3.vercel.app/"><code>run ▶</code></a></td>
+</tr>
+<tr>
+<td><code>🌱 swasthya</code></td>
+<td>Built for Smart India Hackathon in a 2-person team, under a hard deadline — Ayurveda-based wellness platform with a protein calculator and personalized recommendations.</td>
+<td><a href="https://sih-rho-liard.vercel.app/"><code>run ▶</code></a></td>
+</tr>
+<tr>
+<td><code>📝 keeper-note</code></td>
+<td>Clean, fast note-taking app with full CRUD and dynamic state — the kind of small tool that teaches you React fundamentals properly.</td>
+<td><a href="https://keeper-not-app.vercel.app/"><code>run ▶</code></a></td>
+</tr>
+<tr>
+<td><code>🎮 simon-game</code></td>
+<td>Classic memory game rebuilt from scratch in vanilla JS — DOM manipulation and event handling, no shortcuts.</td>
+<td><a href="https://akashyatinjain.github.io/Simon-Game/"><code>run ▶</code></a></td>
+</tr>
+</table>
 
 ```diff
 + $ cat achievements.log
