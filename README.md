@@ -82,6 +82,14 @@ Target Role:    Software Engineering / Backend Engineering Internships (2026)
 
 <br>
 
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Akashyatinjain/DataStock/main/assets/datastock-demo.gif" alt="DataStock Live Product Demo" width="100%" />
+  <br>
+  <sub><i>🎬 DataStock Interactive Demo — Drag & Drop File Upload, Real-Time Nested Folder Tree Navigation & Search</i></sub>
+</p>
+
+<br>
+
 #### 🎯 Problem Statement
 Standard cloud storage tutorial implementations oversimplify file management by storing flat arrays in NoSQL databases. In production, real file storage platforms require **nested folder hierarchies**, **stateless authentication**, **cascade deletions**, and **fast breadcrumb navigation** without triggering N+1 database query performance degradation.
 
@@ -246,12 +254,12 @@ DataStock/
 + $ cat achievements.log
 ```
 
-- 🏆 **2nd Runner Up** — Colloquium (SFIT technical & project competition)
-- 🏆 **IEEE Joint Tech Lead** — SFIT Student Branch (events & technical mentorship)
-- 🏆 **Smart India Hackathon** — Finalist-track build (SWASTHYA)
-- 🏆 **Docker & CI/CD Pipelines** — Multi-stage builds & GitHub Actions deployment
-- 🏆 **45+ Day GitHub Streak** — Consistent daily engineering & code delivery
-- 🏆 **180+ DSA Problems Solved** — Data Structures, Algorithms & System Design focus
+- 🏆 **2nd Runner Up out of 50+ Teams** — Colloquium (SFIT technical & project competition)
+- 🏆 **IEEE Joint Tech Lead** — SFIT Student Branch (leading technical workshops & mentoring 100+ students)
+- 🏆 **Smart India Hackathon Finalist** — Top-tier build (SWASTHYA Platform)
+- 🏆 **180+ LeetCode Problems Solved** — Data Structures, Algorithms & System Design focus
+- 🏆 **45+ Day Active GitHub Streak** — 976+ contributions & daily code delivery
+- 🏆 **Production CI/CD & Docker Pipelines** — Automated containerized deployments
 
 <br>
 
