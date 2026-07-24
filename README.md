@@ -413,3 +413,233 @@ Secure File URLs
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+<div align="center">
+
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=220&color=0:0D1117,35:00E676,100:0D1117&text=%20&fontSize=0&animation=fadeIn"/>
+
+</div>
+
+<div align="center">
+
+```
+┌─────────────────────────────────────────────────────────┐
+│  akash@sfit:~$ whoami                                    │
+└─────────────────────────────────────────────────────────┘
+```
+
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=26&pause=1200&color=00E676&center=true&vCenter=true&width=760&lines=AKASH+JAIN;Full-Stack+Engineer;6%2B+production+apps+shipped+solo;auth+%C2%B7+databases+%C2%B7+cloud+%C2%B7+deploy" />
+
+<br>
+
+`root access: full-stack` &nbsp;·&nbsp; `status: open to SWE internships 2026` &nbsp;·&nbsp; `uptime: shipping since day 1`
+
+<br>
+
+<a href="mailto:aj0881871@gmail.com"><img src="https://img.shields.io/badge/-EMAIL-0D1117?style=for-the-badge&logo=gmail&logoColor=00E676&labelColor=0D1117"/></a>
+<a href="https://profolio-akashjain.vercel.app/"><img src="https://img.shields.io/badge/-PORTFOLIO-0D1117?style=for-the-badge&logo=vercel&logoColor=00E676&labelColor=0D1117"/></a>
+<a href="https://www.linkedin.com/in/akash-yatin-jain"><img src="https://img.shields.io/badge/-LINKEDIN-0D1117?style=for-the-badge&logo=linkedin&logoColor=00E676&labelColor=0D1117"/></a>
+<a href="https://leetcode.com/u/Akashyatinjain/"><img src="https://img.shields.io/badge/-LEETCODE-0D1117?style=for-the-badge&logo=leetcode&logoColor=00E676&labelColor=0D1117"/></a>
+
+</div>
+
+<br>
+
+```diff
++ $ cat about.md
+```
+
+Six projects below. Every single one is **live, deployed, and clickable right now** — not a half-finished repo with a broken `npm start`. I taught myself the full stack by building real things until they broke, then figuring out why: auth flows, relational schemas, file storage, deployment pipelines — the parts tutorials skip.
+
+Currently **Joint Tech Lead @ IEEE SFIT**, running technical events and mentoring juniors, while sharpening DSA and system design between deploys.
+
+<br>
+
+```diff
++ $ ./run --project=datastock --flagship=true
+```
+
+<div align="center">
+<img src="https://img.shields.io/badge/☁️_FLAGSHIP-DataStock-00E676?style=for-the-badge&labelColor=0D1117"/>
+<br><sub><i>A Google Drive clone — but the hard parts weren't skipped</i></sub>
+</div>
+
+<!-- 🔴 ADD HERE: a 6-10 second GIF of the dashboard — upload a file, open a folder, show search.
+     This one visual beats every badge below combined. Drop it right here:
+     ![DataStock demo](link-to-your-gif.gif) -->
+
+<table>
+<tr>
+<td width="58%" valign="top">
+
+```yaml
+status:     production
+uptime:     live on Vercel + Render
+hard_part:  arbitrarily-deep folder trees in
+            PostgreSQL — breadcrumbs, drag-drop
+            moves, and search all stay consistent
+            without recursive-query blowup
+```
+
+**Shipped features**
+- 🔐 JWT + Google OAuth, protected routes
+- 📂 Nested folders, drag-and-drop upload, search, starred & recent
+- ⚡ Cloudinary-backed storage, secure file URLs
+- 🖥️ Fully responsive dashboard, live notifications
+
+**Stack**
+`React·Vite` `Tailwind` `Node·Express` `PostgreSQL` `Prisma` `Cloudinary` `Vercel+Render`
+
+**In progress:** AI file search · team collaboration · version history · real-time sync
+
+</td>
+<td width="42%" valign="top">
+
+```
+ ┌──────────────┐
+ │   React UI   │
+ └──────┬───────┘
+        │ Axios
+ ┌──────▼───────┐
+ │  Express API │
+ │  ── auth ──  │
+ └──────┬───────┘
+        │
+ ┌──────▼───────┐
+ │ Prisma ORM   │
+ └──────┬───────┘
+        │
+ ┌──────▼───────┐
+ │  PostgreSQL  │
+ └──────┬───────┘
+        │
+ ┌──────▼───────┐
+ │  Cloudinary  │
+ │ secure URLs  │
+ └──────────────┘
+```
+
+</td>
+</tr>
+</table>
+
+<div align="center">
+
+**[▶ launch app](https://data-stock.vercel.app/)** &nbsp;`|`&nbsp; **[view source](https://github.com/Akashyatinjain/DataStock)**
+
+</div>
+
+<br>
+
+```diff
++ $ ls ./more-builds
+```
+
+<table>
+<tr><th align="left" width="20%">project</th><th align="left">pitch</th><th align="left" width="14%">exec</th></tr>
+<tr>
+<td><code>💰 finance-tracker</code></td>
+<td>Full personal-finance app — income/expense tracking, category analytics, monthly reports, CSV import. Real CRUD, real relational data.</td>
+<td><a href="https://budget-tracker-no3.vercel.app/"><code>run ▶</code></a></td>
+</tr>
+<tr>
+<td><code>🌱 swasthya</code></td>
+<td>Built for Smart India Hackathon, 2-person team, hard deadline — Ayurveda wellness platform with a protein calculator + personalized recs.</td>
+<td><a href="https://sih-rho-liard.vercel.app/"><code>run ▶</code></a></td>
+</tr>
+<tr>
+<td><code>📝 keeper-note</code></td>
+<td>Fast note-taking app, full CRUD, dynamic state — the small tool that teaches React fundamentals properly.</td>
+<td><a href="https://keeper-not-app.vercel.app/"><code>run ▶</code></a></td>
+</tr>
+<tr>
+<td><code>🎮 simon-game</code></td>
+<td>Classic memory game, rebuilt in vanilla JS — raw DOM manipulation, event handling, zero shortcuts.</td>
+<td><a href="https://akashyatinjain.github.io/Simon-Game/"><code>run ▶</code></a></td>
+</tr>
+</table>
+
+<br>
+
+```diff
++ $ cat achievements.log
+```
+
+```
+[✓] 2nd Runner-Up — Colloquium (SFIT technical & project competition)
+[✓] Joint Tech Lead — IEEE SFIT Student Branch (events + mentoring)
+[✓] Full-Stack Web Development — certified, Udemy
+[✓] Smart India Hackathon — finalist-track build, SWASTHYA
+[~] currently compiling: Docker · AWS · System Design
+```
+<!-- 🔴 ADD HERE if you have them: LeetCode problems solved, contest rating,
+     or how many teams you beat at Colloquium. Numbers > adjectives. -->
+
+<br>
+
+```diff
++ $ neofetch --stack
+```
+
+<div align="center">
+
+<img src="https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white"/> <img src="https://img.shields.io/badge/JavaScript-323330?style=flat-square&logo=javascript&logoColor=F7DF1E"/> <img src="https://img.shields.io/badge/Python-3670A0?style=flat-square&logo=python&logoColor=ffdd54"/> <img src="https://img.shields.io/badge/C-00599C?style=flat-square&logo=c&logoColor=white"/>
+<br><br>
+<img src="https://img.shields.io/badge/React-20232a?style=flat-square&logo=react&logoColor=61DAFB"/> <img src="https://img.shields.io/badge/TailwindCSS-38B2AC?style=flat-square&logo=tailwind-css&logoColor=white"/> <img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=node.js&logoColor=white"/> <img src="https://img.shields.io/badge/Express.js-404d59?style=flat-square&logo=express&logoColor=61DAFB"/>
+<br><br>
+<img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white"/> <img src="https://img.shields.io/badge/Prisma-3982CE?style=flat-square&logo=Prisma&logoColor=white"/> <img src="https://img.shields.io/badge/MongoDB-4ea94b?style=flat-square&logo=mongodb&logoColor=white"/>
+<br><br>
+<img src="https://img.shields.io/badge/Docker-0db7ed?style=flat-square&logo=docker&logoColor=white"/> <img src="https://img.shields.io/badge/AWS-FF9900?style=flat-square&logo=amazon-aws&logoColor=white"/> <img src="https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white"/> <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white"/> <img src="https://img.shields.io/badge/Postman-FF6C37?style=flat-square&logo=postman&logoColor=white"/> <img src="https://img.shields.io/badge/Figma-F24E1E?style=flat-square&logo=figma&logoColor=white"/>
+
+</div>
+
+<br>
+
+```diff
++ $ git log --stats --author=akash
+```
+
+<p align="center">
+<img height="165" src="https://github-readme-stats.vercel.app/api?username=Akashyatinjain&show_icons=true&theme=github_dark&hide_border=true&bg_color=0D1117&title_color=00E676&icon_color=00E676&text_color=c9d1d9"/>
+<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Akashyatinjain&layout=compact&theme=github_dark&hide_border=true&bg_color=0D1117&title_color=00E676&text_color=c9d1d9"/>
+</p>
+<p align="center">
+<img src="https://streak-stats.demolab.com?user=Akashyatinjain&theme=github-dark-blue&hide_border=true&background=0D1117&ring=00E676&fire=00E676&currStreakLabel=00E676"/>
+</p>
+
+<br>
+
+<div align="center">
+
+```
+┌─────────────────────────────────────────────────────────┐
+│  akash@sfit:~$ ./contact --urgent                        │
+│  > compiling internship applications... 2026             │
+│  > status: actively interviewing                         │
+└─────────────────────────────────────────────────────────┘
+```
+
+**I reply within a day.** Send me the role — I'll walk you through DataStock's architecture live, no prep needed on your end.
+
+<a href="mailto:aj0881871@gmail.com"><img src="https://img.shields.io/badge/-EMAIL_ME-D14836?style=for-the-badge&logo=gmail&logoColor=white&labelColor=0D1117"/></a>
+<a href="https://www.linkedin.com/in/akash-yatin-jain"><img src="https://img.shields.io/badge/-MESSAGE_ON_LINKEDIN-0077B5?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0D1117"/></a>
+<a href="https://profolio-akashjain.vercel.app/"><img src="https://img.shields.io/badge/-FULL_PORTFOLIO-00E676?style=for-the-badge&logo=vercel&logoColor=0D1117&labelColor=0D1117"/></a>
+
+<br><br>
+
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=110&color=0:0D1117,50:00E676,100:0D1117&section=footer"/>
+
+</div>
+
+
