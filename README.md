@@ -216,8 +216,8 @@ hard_part:  arbitrarily-deep folder trees in
 ```
 
 <p align="center">
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=Akashyatinjain&show_icons=true&theme=github_dark&hide_border=true&bg_color=0D1117&title_color=00E676&icon_color=00E676&text_color=c9d1d9"/>
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Akashyatinjain&layout=compact&theme=github_dark&hide_border=true&bg_color=0D1117&title_color=00E676&text_color=c9d1d9"/>
+<img height="165" src="https://github-readme-stats-orcin-two-50.vercel.app/api?username=Akashyatinjain&show_icons=true&theme=github_dark&hide_border=true&bg_color=0D1117&title_color=00E676&icon_color=00E676&text_color=c9d1d9"/>
+<img height="165" src="https://github-readme-stats-orcin-two-50.vercel.app/api/top-langs/?username=Akashyatinjain&layout=compact&theme=github_dark&hide_border=true&bg_color=0D1117&title_color=00E676&text_color=c9d1d9"/>
 </p>
 <p align="center">
 <img src="https://streak-stats.demolab.com?user=Akashyatinjain&theme=github-dark-blue&hide_border=true&background=0D1117&ring=00E676&fire=00E676&currStreakLabel=00E676"/>
