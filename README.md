@@ -1,4 +1,4 @@
-![header](https://raw.githubusercontent.com/Akashyatinjain/Akashyatinjain/main/assets/github-header.svg)
+![header](https://raw.githubusercontent.com/Akashyatinjain/Akashyatinjain/main/assets/terminal-header-glow.svg)
 
 ```
 ╭──────────────────────────────────────────────────────────╮
