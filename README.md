@@ -27,127 +27,57 @@
 <a href="https://www.linkedin.com/in/akash-yatin-jain"><img src="https://img.shields.io/badge/-LINKEDIN-0D1117?style=for-the-badge&logo=linkedin&logoColor=00E676&labelColor=0D1117"/></a>
 <a href="https://leetcode.com/u/Akashyatinjain/"><img src="https://img.shields.io/badge/-LEETCODE-0D1117?style=for-the-badge&logo=leetcode&logoColor=00E676&labelColor=0D1117"/></a>
 
-
 <br><br>
 
-> 💡 **ENGINEERING PHILOSOPHY**
+> **ENGINEERING PHILOSOPHY**  
 > *"I don't clone tutorials. I finish production-ready projects — from database schema design to deployment pipelines."*
 
 <br>
 
 ```yaml
-# ⚡ WHY ME? — QUICK ENGINEERING SNAPSHOT
+# QUICK ENGINEERING SNAPSHOT
 Focus:          Backend & Systems Engineering
 Track Record:   Built 4 Production-Ready Applications
 Volume:         10,000+ Lines of Clean Code
 Core Stack:     Node.js · Express · PostgreSQL · Prisma · Docker · Cloudinary
-Core Domains:   Authentication · CI/CD · Architecture · Performance · Security
+Core Domains:   Authentication · CI/CD · System Architecture · Performance · Security
 Current Role:   Joint Tech Lead @ IEEE SFIT
 Target Role:    Software Engineering / Backend Engineering Internships (2026)
 ```
 
 <br>
 
-### 🧠 Architectural Decisions & Why I Chose Each Tool
+### Tech Stack Trade-Offs
 
-| Technology | Why This Over Alternatives |
+| Technology | Architectural Decision & Trade-Off |
 | :--- | :--- |
-| **Node.js + Express** | Non-blocking I/O for async file streaming; lightweight enough for solo development velocity. |
-| **PostgreSQL** | ACID compliance and relational integrity for nested folder trees — MongoDB can't enforce foreign keys. |
-| **Prisma ORM** | Type-safe queries, auto-generated migrations, and SQL injection prevention out of the box. |
-| **Cloudinary CDN** | Offloads binary storage to a global CDN — no disk management on a free-tier Render server. |
-| **JWT + Google OAuth** | Stateless auth scales horizontally without server-side session stores. |
-| **Docker** | Eliminates "works on my machine" — identical builds across local, CI, and production. |
+| **Node.js + Express** | Event-driven, non-blocking I/O for async file streaming and API routing. |
+| **PostgreSQL** | Relational data integrity and indexed constraints for nested folder structures. |
+| **Prisma ORM** | Type-safe database queries, auto-generated migrations, and SQL injection defense. |
+| **Cloudinary CDN** | Offloaded binary file hosting to global CDN with signed URL verification. |
+| **JWT + Google OAuth** | Stateless user authentication designed for horizontal scalability. |
+| **Docker** | Isolated container build environments guaranteeing dev-to-prod consistency. |
 
 <br>
 
 <img src="https://capsule-render.vercel.app/api?type=rect&color=0:0D1117,100:0D1117&height=2&width=100%25"/>
 
 ```diff
-+ $ ./run --project=datastock --mode=case-study
++ $ ./run --project=datastock --mode=featured
 ```
 
 <div align="center">
-<img src="https://img.shields.io/badge/FLAGSHIP_CASE_STUDY-DataStock-00E676?style=for-the-badge&labelColor=0D1117"/>
-<br><sub><i>A production-grade Google Drive clone — nested folders, JWT auth, Cloudinary storage, Dockerized deployment</i></sub>
+<img src="https://img.shields.io/badge/FLAGSHIP_PROJECT-DataStock-00E676?style=for-the-badge&labelColor=0D1117"/>
+<br><sub><i>Production-grade cloud storage platform featuring nested folder trees, JWT authentication, and Cloudinary streaming</i></sub>
 </div>
+
+<br>
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/Akashyatinjain/Akashyatinjain/main/assets/datastock-demo.gif" alt="DataStock Demo" width="100%" />
   <br>
-  <sub><i>🎬 DataStock — File Upload, Nested Folder Navigation & Search</i></sub>
+  <sub><i>DataStock Interactive Demo — Drag & Drop Upload, Nested Folder Navigation & Search</i></sub>
 </p>
-
-<br>
-
-#### 🎯 Problem
-Tutorial cloud-storage apps store flat file arrays in MongoDB. Real platforms need **nested folder hierarchies**, **cascade deletions**, and **breadcrumb navigation** without N+1 query blowup.
-
-#### 💡 Solution
-Layered Express backend with **Prisma ORM** over **PostgreSQL**. Iterative folder-path resolution algorithm, Cloudinary signed-URL uploads, and JWT middleware across 18 protected routes.
-
-<br>
-
-### 🏗️ Architecture & Data Flow
-
-```mermaid
-graph TD
-    Client[React UI / Vite] -->|Axios| Router[Express Router]
-    Router --> Auth[JWT Auth Middleware]
-    Auth --> Controller[Controllers]
-    Controller --> Service[Services]
-    Service -->|Prisma| DB[(PostgreSQL)]
-    Service -->|Signed URLs| CDN[Cloudinary CDN]
-```
-
-### 🗄️ Database Schema (ERD)
-
-```mermaid
-erDiagram
-    USER ||--o{ FOLDER : "owns"
-    USER ||--o{ FILE : "owns"
-    USER ||--o{ NOTIFICATION : "receives"
-    FOLDER ||--o{ FOLDER : "parent-child"
-    FOLDER ||--o{ FILE : "contains"
-    FILE ||--o{ PUBLIC_SHARE : "generates"
-    FILE ||--o{ SHARE_PERMISSION : "shared_with"
-```
-
-<br>
-
-### 🔌 Key API Endpoints
-
-| Method | Endpoint | What It Does |
-| :--- | :--- | :--- |
-| `GET` | `/api/files` | Recursive folder tree listing with Prisma user-ID filtering |
-| `POST` | `/api/upload` | Multipart stream → Cloudinary CDN → PostgreSQL index |
-| `DELETE` | `/api/file/:id` | Cascade: verify owner → purge CDN asset → delete DB record |
-| `PATCH` | `/api/file/star` | Atomic toggle with instant state revalidation |
-| `GET` | `/api/search` | Index-backed full-text search across filenames & MIME types |
-
-<br>
-
-### 🛡️ Security Implemented
-
-`JWT Auth` · `Google OAuth 2.0` · `bcrypt (10 rounds)` · `Helmet headers` · `express-rate-limit` · `CORS whitelist` · `Postman test suite`
-
-<br>
-
-### 📁 Project Structure
-
-```
-DataStock/
-├── client/                 # React + Vite (60+ components)
-│   ├── src/components/     # UI components & dashboard
-│   └── src/services/       # Axios client & interceptors
-└── server/                 # Express backend (90+ files)
-    ├── controllers/        # Request validation
-    ├── middleware/         # JWT auth & rate limiting
-    ├── routes/             # API endpoints
-    ├── services/           # Business logic & Cloudinary
-    ├── utils/              # Folder tree algorithm
-    └── prisma/             # Schema (6 models) & migrations
-```
 
 <br>
 
@@ -155,24 +85,31 @@ DataStock/
 
 <a href="https://data-stock.vercel.app/"><img src="https://img.shields.io/badge/-TRY_LIVE_APP-00E676?style=for-the-badge&logo=vercel&logoColor=0D1117&labelColor=0D1117"/></a>
 &nbsp;&nbsp;
-<a href="https://github.com/Akashyatinjain/DataStock"><img src="https://img.shields.io/badge/-VIEW_SOURCE_CODE-0D1117?style=for-the-badge&logo=github&logoColor=00E676&labelColor=0D1117"/></a>
+<a href="https://github.com/Akashyatinjain/DataStock"><img src="https://img.shields.io/badge/-VIEW_SOURCE_CODE_&_ARCHITECTURE-0D1117?style=for-the-badge&logo=github&logoColor=00E676&labelColor=0D1117"/></a>
 
 </div>
+
+<br>
+
+**Key Engineering Highlights:**
+- **Problem:** Tutorial cloud-storage apps store flat arrays in MongoDB. Real platforms require **nested folder hierarchies**, **cascade deletions**, and **fast path resolution** without N+1 query degradation.
+- **Solution:** Designed a layered Express backend with **Prisma ORM** on **PostgreSQL**. Built an iterative folder-path algorithm, Cloudinary signed-stream uploads, and JWT middleware across 18 protected REST routes.
+- **Full Architecture & ERD:** Available in the [DataStock repository](https://github.com/Akashyatinjain/DataStock).
 
 <br>
 
 <img src="https://capsule-render.vercel.app/api?type=rect&color=0:0D1117,100:0D1117&height=2&width=100%25"/>
 
 ```diff
-+ $ ls ./more-builds
++ $ ls ./other-projects
 ```
 
-| Project | Engineering Pitch | Live |
+| Project | Description & Engineering Focus | Link |
 | :--- | :--- | :---: |
-| `💰 finance-tracker` | Income/expense tracking, category analytics, CSV import, relational SQL. | [`run ▶`](https://budget-tracker-no3.vercel.app/) |
-| `🌱 swasthya` | SIH finalist — wellness platform with protein calculator & recommendations. | [`run ▶`](https://sih-rho-liard.vercel.app/) |
-| `📝 keeper-note` | Full CRUD note app with clean component isolation & dynamic state. | [`run ▶`](https://keeper-not-app.vercel.app/) |
-| `🎮 simon-game` | Vanilla JS memory game — DOM manipulation & event-driven state machines. | [`run ▶`](https://akashyatinjain.github.io/Simon-Game/) |
+| `finance-tracker` | Personal finance tracker — income/expense categorization, CSV import, relational SQL data model. | [`run ▶`](https://budget-tracker-no3.vercel.app/) |
+| `swasthya` | Smart India Hackathon finalist — Ayurveda wellness app with protein calculator & tailored suggestions. | [`run ▶`](https://sih-rho-liard.vercel.app/) |
+| `keeper-note` | Note application featuring full CRUD operations, modular state, and component isolation. | [`run ▶`](https://keeper-not-app.vercel.app/) |
+| `simon-game` | Interactive memory game built in vanilla JS with custom event handling and state machine logic. | [`run ▶`](https://akashyatinjain.github.io/Simon-Game/) |
 
 <br>
 
@@ -182,11 +119,11 @@ DataStock/
 + $ cat achievements.log
 ```
 
-- 🏆 **2nd Runner Up out of 50+ Teams** — Colloquium (SFIT technical & project competition)
-- 🏆 **IEEE Joint Tech Lead** — SFIT Student Branch (workshops & mentoring 100+ students)
-- 🏆 **Smart India Hackathon Finalist** — SWASTHYA Platform
-- 🏆 **180+ LeetCode Problems Solved** — DSA & System Design focus
-- 🏆 **45+ Day GitHub Streak** — 976+ contributions, daily code delivery
+- **2nd Runner Up (50+ Teams)** — Colloquium (SFIT technical project competition)
+- **IEEE Joint Tech Lead** — SFIT Student Branch (mentored 100+ students in technical workshops)
+- **Smart India Hackathon Finalist** — Top finalist team for SWASTHYA Platform
+- **180+ LeetCode Solved** — Focus on Data Structures, Algorithms & Problem Solving
+- **45+ Day GitHub Streak** — 976+ contributions with consistent daily commits
 
 <br>
 
@@ -224,12 +161,12 @@ DataStock/
 ╰──────────────────────────────────────────────────────────╯
 ```
 
-> 🚀 **WHY HIRE ME?**
-> *"I want to bring 'ship it end-to-end' ownership to a real team — database schemas, REST APIs, and deployment pipelines from Day 1."*
+> **WHY HIRE ME?**  
+> *"I bring end-to-end engineering ownership — taking responsibility for database schemas, REST APIs, and deployment pipelines from Day 1."*
 
-- 🎯 **Role:** SWE / Backend Engineering Internship (2026)
-- ⚙️ **Focus:** Backend Systems | Full-Stack | Cloud
-- 📍 **Location:** Remote | India
+- **Target Role:** Software Engineering / Backend Engineering Internships (2026)
+- **Domain Focus:** Backend Systems | Full-Stack | Cloud Infrastructure
+- **Location:** Remote | India
 
 <br>
 
