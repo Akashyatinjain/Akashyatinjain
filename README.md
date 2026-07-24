@@ -6,7 +6,7 @@
 ╰──────────────────────────────────────────────────────────╯
 ```
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=21&pause=1500&color=00E676&center=true&vCenter=true&width=750&lines=Backend+%26+Systems+Engineering;Authentication+%C2%B7+Caching+%C2%B7+CI%2FCD+%C2%B7+Architecture;Built+6+Production-Ready+Apps+%7C+10%2C000%2B+Lines;Actively+Interviewing+for+2026+SWE+Internships"/>
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=21&pause=1500&color=00E676&center=true&vCenter=true&width=750&lines=Backend+%26+Systems+Engineering;Authentication+%C2%B7+Caching+%C2%B7+CI%2FCD+%C2%B7+Architecture;Built+4+Production-Ready+Apps+%7C+10%2C000%2B+Lines;Actively+Interviewing+for+2026+SWE+Internships"/>
 
 <br>
 
@@ -26,7 +26,7 @@
 <a href="https://profolio-akashjain.vercel.app/"><img src="https://img.shields.io/badge/-PORTFOLIO-0D1117?style=for-the-badge&logo=vercel&logoColor=00E676&labelColor=0D1117"/></a>
 <a href="https://www.linkedin.com/in/akash-yatin-jain"><img src="https://img.shields.io/badge/-LINKEDIN-0D1117?style=for-the-badge&logo=linkedin&logoColor=00E676&labelColor=0D1117"/></a>
 <a href="https://leetcode.com/u/Akashyatinjain/"><img src="https://img.shields.io/badge/-LEETCODE-0D1117?style=for-the-badge&logo=leetcode&logoColor=00E676&labelColor=0D1117"/></a>
-<a href="https://github.com/Akashyatinjain"><img src="https://img.shields.io/badge/-GITHUB-0D1117?style=for-the-badge&logo=github&logoColor=00E676&labelColor=0D1117"/></a>
+
 
 <br><br>
 
