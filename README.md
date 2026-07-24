@@ -16,14 +16,13 @@
 
 <br><br>
 
-<img src="https://img.shields.io/badge/build-passing-00E676?style=flat-square&logo=githubactions&logoColor=white"/>
+<img src="https://img.shields.io/github/actions/workflow/status/Akashyatinjain/Akashyatinjain/snake.yml?style=flat-square&logo=githubactions&logoColor=white&label=build"/>
+<img src="https://img.shields.io/github/last-commit/Akashyatinjain/Akashyatinjain?style=flat-square&logo=github&logoColor=white&label=last%20commit&color=00E676"/>
 <img src="https://img.shields.io/badge/license-MIT-00E676?style=flat-square&labelColor=0D1117"/>
-<img src="https://img.shields.io/badge/tests-45%2F45_passed-00E676?style=flat-square&labelColor=0D1117"/>
 
 <br><br>
 
 <a href="mailto:aj0881871@gmail.com"><img src="https://img.shields.io/badge/-EMAIL-0D1117?style=for-the-badge&logo=gmail&logoColor=00E676&labelColor=0D1117"/></a>
-<a href="https://profolio-akashjain.vercel.app/"><img src="https://img.shields.io/badge/-RESUME-0D1117?style=for-the-badge&logo=adobeacrobatreader&logoColor=00E676&labelColor=0D1117"/></a>
 <a href="https://profolio-akashjain.vercel.app/"><img src="https://img.shields.io/badge/-PORTFOLIO-0D1117?style=for-the-badge&logo=vercel&logoColor=00E676&labelColor=0D1117"/></a>
 <a href="https://www.linkedin.com/in/akash-yatin-jain"><img src="https://img.shields.io/badge/-LINKEDIN-0D1117?style=for-the-badge&logo=linkedin&logoColor=00E676&labelColor=0D1117"/></a>
 <a href="https://leetcode.com/u/Akashyatinjain/"><img src="https://img.shields.io/badge/-LEETCODE-0D1117?style=for-the-badge&logo=leetcode&logoColor=00E676&labelColor=0D1117"/></a>
@@ -39,40 +38,26 @@
 ```yaml
 # ⚡ WHY ME? — QUICK ENGINEERING SNAPSHOT
 Focus:          Backend & Systems Engineering
-Track Record:   Built 6 Production-Ready Applications
+Track Record:   Built 4 Production-Ready Applications
 Volume:         10,000+ Lines of Clean Code
-Core Stack:     Node.js · Express · PostgreSQL · Prisma · Docker · AWS (learning) · Redis (future)
-Core Domains:   Authentication · Caching · CI/CD · Testing · Scaling · Architecture · Performance · Security
+Core Stack:     Node.js · Express · PostgreSQL · Prisma · Docker · Cloudinary
+Core Domains:   Authentication · CI/CD · Architecture · Performance · Security
 Current Role:   Joint Tech Lead @ IEEE SFIT
 Target Role:    Software Engineering / Backend Engineering Internships (2026)
 ```
 
 <br>
 
-### 📊 Quantifiable Engineering Impact & Proof
+### 🧠 Architectural Decisions & Why I Chose Each Tool
 
-| Engineering Metric | Value / Impact | Detail & Verification |
-| :--- | :--- | :--- |
-| 🚀 **Production Applications** | `6 Deployed Systems` | Live, clickable production builds with zero broken endpoints |
-| 🛠️ **Technologies & Frameworks** | `18+ Core Tools` | Node.js, Express, PostgreSQL, Prisma, Docker, React, Tailwind |
-| ⚡ **Total Code Commits** | `744+ Verified Commits` | **976 Contributions · 45 Day Streak** — *Built while studying full-time* |
-| 🔌 **REST API Endpoints** | `50+ Endpoints` | Fully authenticated, validated, and documented in Postman |
-| 🐳 **Docker Container Builds** | `3 Custom Images` | Multi-stage Dockerfiles for production container isolation |
-| 🌐 **Production Deployments** | `12 Live Instances` | Automated CI/CD deployments across Vercel & Render |
-
-<br>
-
-### 🧠 Architectural Decisions & Tech Stack Justifications
-
-| Technology | Architectural Decision & Engineering Trade-Off |
+| Technology | Why This Over Alternatives |
 | :--- | :--- |
-| **Node.js + Express** | Non-blocking, event-driven I/O model ideal for high-throughput asynchronous file streaming & API routing. |
-| **PostgreSQL** | Strict ACID compliance, relational integrity, and indexed foreign key constraints for complex user data models. |
-| **Prisma ORM** | Type-safe database client, auto-generated migrations, and prevention of SQL injection vulnerabilities. |
-| **Cloudinary CDN** | Offloading binary image/file hosting to a global CDN with signed URL verification, reducing server disk overhead. |
-| **JWT + Google OAuth** | Stateless user authentication that eliminates server-side session memory locks and scales horizontally. |
-| **Docker** | Consistent, containerized build environments that guarantee identical execution across local dev and production. |
-| **Render & Vercel** | Git-triggered deployment pipelines with environment secret management and instant rollback capabilities. |
+| **Node.js + Express** | Non-blocking I/O for async file streaming; lightweight enough for solo development velocity. |
+| **PostgreSQL** | ACID compliance and relational integrity for nested folder trees — MongoDB can't enforce foreign keys. |
+| **Prisma ORM** | Type-safe queries, auto-generated migrations, and SQL injection prevention out of the box. |
+| **Cloudinary CDN** | Offloads binary storage to a global CDN — no disk management on a free-tier Render server. |
+| **JWT + Google OAuth** | Stateless auth scales horizontally without server-side session stores. |
+| **Docker** | Eliminates "works on my machine" — identical builds across local, CI, and production. |
 
 <br>
 
@@ -84,149 +69,81 @@ Target Role:    Software Engineering / Backend Engineering Internships (2026)
 
 <div align="center">
 <img src="https://img.shields.io/badge/FLAGSHIP_CASE_STUDY-DataStock-00E676?style=for-the-badge&labelColor=0D1117"/>
-<br><sub><i>A production-grade Google Drive clone engineered with layered backend architecture, relational schemas, and cloud storage</i></sub>
+<br><sub><i>A production-grade Google Drive clone — nested folders, JWT auth, Cloudinary storage, Dockerized deployment</i></sub>
 </div>
 
 <br>
 
-<p align="center">
-  <img src="https://raw.githubusercontent.com/Akashyatinjain/DataStock/main/assets/datastock-demo.gif" alt="DataStock Live Product Demo" width="100%" />
-  <br>
-  <sub><i>🎬 DataStock Interactive Demo — Drag & Drop File Upload, Real-Time Nested Folder Tree Navigation & Search</i></sub>
-</p>
+#### 🎯 Problem
+Tutorial cloud-storage apps store flat file arrays in MongoDB. Real platforms need **nested folder hierarchies**, **cascade deletions**, and **breadcrumb navigation** without N+1 query blowup.
+
+#### 💡 Solution
+Layered Express backend with **Prisma ORM** over **PostgreSQL**. Iterative folder-path resolution algorithm, Cloudinary signed-URL uploads, and JWT middleware across 18 protected routes.
 
 <br>
 
-#### 🎯 Problem Statement
-Standard cloud storage tutorial implementations oversimplify file management by storing flat arrays in NoSQL databases. In production, real file storage platforms require **nested folder hierarchies**, **stateless authentication**, **cascade deletions**, and **fast breadcrumb navigation** without triggering N+1 database query performance degradation.
-
-#### 🛠️ Technical Challenges
-1. **Hierarchical Data Resolution:** Navigating arbitrarily deep parent-child folder structures in SQL without recursive query blowup.
-2. **Secure Media Streaming:** Offloading binary storage to a CDN while keeping metadata in PostgreSQL synchronized.
-3. **Stateless Authorization:** Enforcing strict resource ownership across 18 protected REST routes.
-
-#### 💡 Engineering Solution
-Designed a layered Express backend utilizing **Prisma ORM** over **PostgreSQL**. Implemented an iterative folder path resolution algorithm, Cloudinary signed URL stream uploads, and JWT authorization middleware.
-
-<br>
-
-### 🏗️ Layered Architecture Diagram
+### 🏗️ Architecture & Data Flow
 
 ```mermaid
 graph TD
-    Client[React UI / Vite] -->|Axios HTTP Requests| Router[Express Router]
-    Router --> Middleware[JWT Auth & Security Middleware]
-    Middleware --> Controller[Controllers - Request Validation]
-    Controller --> Service[Services - Business Logic Engine]
-    Service -->|Prisma Queries| Database[(PostgreSQL Database)]
-    Service -->|Signed Upload Streams| Cloudinary[Cloudinary CDN Storage]
-    Service -.->|Future Caching Layer| Redis[(Redis Cache - Planned)]
+    Client[React UI / Vite] -->|Axios| Router[Express Router]
+    Router --> Auth[JWT Auth Middleware]
+    Auth --> Controller[Controllers]
+    Controller --> Service[Services]
+    Service -->|Prisma| DB[(PostgreSQL)]
+    Service -->|Signed URLs| CDN[Cloudinary CDN]
 ```
 
-<br>
-
-### 🔄 CI/CD Pipeline & Docker Workflow Diagram
-
-```mermaid
-graph LR
-    Push[Git Push to Main] --> Actions[GitHub Actions CI Workflow]
-    Actions --> Lint[Lint & Code Quality Check]
-    Actions --> Docker[Docker Multi-Stage Build]
-    Docker --> DeployRender[Deploy API to Render]
-    Docker --> DeployVercel[Deploy UI to Vercel]
-```
-
-<br>
-
-### 🗄️ Database Schema & Entity-Relationship Diagram (ERD)
+### 🗄️ Database Schema (ERD)
 
 ```mermaid
 erDiagram
     USER ||--o{ FOLDER : "owns"
     USER ||--o{ FILE : "owns"
     USER ||--o{ NOTIFICATION : "receives"
-    FOLDER ||--o{ FOLDER : "parent-child tree"
+    FOLDER ||--o{ FOLDER : "parent-child"
     FOLDER ||--o{ FILE : "contains"
     FILE ||--o{ PUBLIC_SHARE : "generates"
-    USER ||--o{ SHARE_PERMISSION : "granted"
     FILE ||--o{ SHARE_PERMISSION : "shared_with"
 ```
 
 <br>
 
-### 📁 Software Architecture & Folder Structure
+### 🔌 Key API Endpoints
+
+| Method | Endpoint | What It Does |
+| :--- | :--- | :--- |
+| `GET` | `/api/files` | Recursive folder tree listing with Prisma user-ID filtering |
+| `POST` | `/api/upload` | Multipart stream → Cloudinary CDN → PostgreSQL index |
+| `DELETE` | `/api/file/:id` | Cascade: verify owner → purge CDN asset → delete DB record |
+| `PATCH` | `/api/file/star` | Atomic toggle with instant state revalidation |
+| `GET` | `/api/search` | Index-backed full-text search across filenames & MIME types |
+
+<br>
+
+### 🛡️ Security Implemented
+
+`JWT Auth` · `Google OAuth 2.0` · `bcrypt (10 rounds)` · `Helmet headers` · `express-rate-limit` · `CORS whitelist` · `Postman test suite`
+
+<br>
+
+### 📁 Project Structure
 
 ```
 DataStock/
-├── client/                 # React + Vite Frontend (60+ UI components)
-│   ├── src/components/     # Modular UI components & dashboard views
-│   └── src/services/       # Axios API client & interceptors
-└── server/                 # Layered Express Backend Architecture (90+ files)
-    ├── controllers/        # Request validation & HTTP response formatting
-    ├── middleware/         # JWT Auth, rate limiting, and global error handlers
-    ├── routes/             # REST API route endpoints
-    ├── services/           # Business logic & Cloudinary SDK integration
-    ├── utils/              # Recursive folder tree algorithm & query helpers
-    └── prisma/             # PostgreSQL relational schema (6 models) & migrations
+├── client/                 # React + Vite (60+ components)
+│   ├── src/components/     # UI components & dashboard
+│   └── src/services/       # Axios client & interceptors
+└── server/                 # Express backend (90+ files)
+    ├── controllers/        # Request validation
+    ├── middleware/         # JWT auth & rate limiting
+    ├── routes/             # API endpoints
+    ├── services/           # Business logic & Cloudinary
+    ├── utils/              # Folder tree algorithm
+    └── prisma/             # Schema (6 models) & migrations
 ```
 
 <br>
-
-### 🔌 Core REST API Showcase
-
-| Method | Endpoint | Purpose | Validation & Implementation |
-| :--- | :--- | :--- | :--- |
-| `GET` | `/api/files` | Recursive file & folder listing | Queries PostgreSQL via Prisma with user ID filtering & pagination |
-| `POST` | `/api/upload` | Secure stream file upload | Multi-part Form Data -> Cloudinary CDN stream -> DB index entry |
-| `DELETE` | `/api/file/:id` | Cascade file deletion | Verifies owner -> Purges Cloudinary asset -> Deletes PostgreSQL record |
-| `PATCH` | `/api/file/star` | Toggle starred status | Atomic update query returning updated state |
-| `GET` | `/api/search` | Multi-field search | PostgreSQL index-backed search across file names & mime types |
-
-<br>
-
-### 🛡️ Security & Hardening Checklist
-
-- [x] **Stateless Authentication (JWT):** Short-lived access tokens with secure authorization middleware route guards.
-- [x] **Google OAuth 2.0:** Secure identity verification and OAuth token exchange protocol.
-- [x] **Password Protection (bcrypt):** Hashing passwords using 10 salt rounds.
-- [x] **HTTP Security Headers (Helmet):** Defense against XSS, MIME sniffing, and clickjacking attacks.
-- [x] **Rate Limiting:** Throttling request spikes using `express-rate-limit` on authentication endpoints.
-- [x] **CORS & Payload Sanitization:** Strict origin policies and sanitized input payloads.
-- [x] **API Testing & Postman Collection:** Manual & Postman suite validation (`200`, `201`, `400`, `401`, `403`, `500`).
-
-<br>
-
-### ⚡ System Performance & SLA Specifications
-
-- **Development Timeline:** Built in **3 weeks** from schema design to production deployment.
-- **Average API Response Time:** `95ms`
-- **Authentication Overhead:** `< 12ms` (Stateless JWT payload verification)
-- **CDN Latency:** `Cloudinary CDN Auto-Format & Quality Optimization`
-- **Database Query Indexing:** `Indexed Foreign Keys on UserID and ParentFolderID`
-- **CI/CD Build Time:** `< 90s` (GitHub Actions automated container build & deployment)
-
-<br>
-
-### 📈 Results & Future Improvements
-
-- **Result:** Successfully built and deployed a production-ready cloud storage application handling complex nested structures with 95ms average API response latency.
-- **Future Engineering Roadmap:**
-  - [ ] Implement **Redis Caching** for hot directory metadata.
-  - [ ] Add **WebSockets (Socket.IO)** for real-time collaboration notifications.
-  - [ ] Explore **Kubernetes** container orchestration and **AWS S3** storage adapters.
-
-<br>
-
-### 📱 UI Showcase & Screenshots
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/Akashyatinjain/DataStock/main/assets/dashboard-desktop.png" alt="Desktop Dashboard View" width="48%" />
-  <img src="https://raw.githubusercontent.com/Akashyatinjain/DataStock/main/assets/folder-view.png" alt="Nested Folder View" width="48%" />
-</p>
-<p align="center">
-  <img src="https://raw.githubusercontent.com/Akashyatinjain/DataStock/main/assets/file-upload.png" alt="File Upload Modal" width="48%" />
-  <img src="https://raw.githubusercontent.com/Akashyatinjain/DataStock/main/assets/search-analytics.png" alt="Search & Analytics" width="48%" />
-</p>
 
 <div align="center">
 
@@ -244,14 +161,12 @@ DataStock/
 + $ ls ./more-builds
 ```
 
-| Project | Engineering Pitch | Live Execution |
+| Project | Engineering Pitch | Live |
 | :--- | :--- | :---: |
-| `💰 finance-tracker` | Full personal-finance app — income/expense tracking, category analytics, CSV import, relational SQL data. | [`run ▶`](https://budget-tracker-no3.vercel.app/) |
-| `🌱 swasthya` | Smart India Hackathon finalist build — Ayurveda wellness platform with protein calculator & personalized recommendations. | [`run ▶`](https://sih-rho-liard.vercel.app/) |
-| `⚡ redis-cache-layer` | High-performance caching layer & rate limiter implementation in Redis & Node.js for low-latency endpoints. | [`run ▶`](https://github.com/Akashyatinjain) |
-| `📊 appointment-analytics` | Full-stack scheduling system & data aggregation dashboard with automated status notifications. | [`run ▶`](https://github.com/Akashyatinjain) |
-| `📝 keeper-note` | Note-taking application with full CRUD operations, clean component isolation, and dynamic state management. | [`run ▶`](https://keeper-not-app.vercel.app/) |
-| `🎮 simon-game` | Memory game built in vanilla JS — raw DOM manipulation, state machines, and event listener patterns. | [`run ▶`](https://akashyatinjain.github.io/Simon-Game/) |
+| `💰 finance-tracker` | Income/expense tracking, category analytics, CSV import, relational SQL. | [`run ▶`](https://budget-tracker-no3.vercel.app/) |
+| `🌱 swasthya` | SIH finalist — wellness platform with protein calculator & recommendations. | [`run ▶`](https://sih-rho-liard.vercel.app/) |
+| `📝 keeper-note` | Full CRUD note app with clean component isolation & dynamic state. | [`run ▶`](https://keeper-not-app.vercel.app/) |
+| `🎮 simon-game` | Vanilla JS memory game — DOM manipulation & event-driven state machines. | [`run ▶`](https://akashyatinjain.github.io/Simon-Game/) |
 
 <br>
 
@@ -262,43 +177,10 @@ DataStock/
 ```
 
 - 🏆 **2nd Runner Up out of 50+ Teams** — Colloquium (SFIT technical & project competition)
-- 🏆 **IEEE Joint Tech Lead** — SFIT Student Branch (leading technical workshops & mentoring 100+ students)
-- 🏆 **Smart India Hackathon Finalist** — Top-tier build (SWASTHYA Platform)
-- 🏆 **180+ LeetCode Problems Solved** — Data Structures, Algorithms & System Design focus
-- 🏆 **45+ Day Active GitHub Streak** — 976+ contributions & daily code delivery
-- 🏆 **Production CI/CD & Docker Pipelines** — Automated containerized deployments
-
-<br>
-
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:0D1117,100:0D1117&height=2&width=100%25"/>
-
-```diff
-+ $ cat lessons_learned.md
-```
-
-### 🎓 Key Engineering Lessons Learned
-
-- ✔ **Database Normalization vs. Performance:** Learned to structure relational database schemas while utilizing indexes to prevent expensive table scans.
-- ✔ **Stateless Authentication Security:** Mastered JWT token flows, token storage best practices, and OAuth 2.0 integration mechanics.
-- ✔ **Containerization Discipline:** Understood how multi-stage Docker builds reduce container image sizes and eliminate environment mismatch bugs.
-- ✔ **CI/CD Reliability:** Implemented automated GitHub Actions workflows to catch build regressions before deployment to production.
-
-<br>
-
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:0D1117,100:0D1117&height=2&width=100%25"/>
-
-```diff
-+ $ ls ./pinned-repositories
-```
-
-### ⭐ Top 6 Pinned Repositories
-
-- ⭐ [**DataStock**](https://github.com/Akashyatinjain/DataStock) — Google Drive Clone (Full-Stack, PostgreSQL, Prisma, Cloudinary, Docker)
-- ⭐ [**Finance Tracker**](https://github.com/Akashyatinjain/Budget-tracker) — Personal Finance Management & Relational SQL Analytics
-- ⭐ [**Swasthya**](https://github.com/Akashyatinjain) — Smart India Hackathon Finalist Wellness Platform
-- ⭐ [**Docker Learning**](https://github.com/Akashyatinjain) — Containerization & DevOps Pipeline Practice
-- ⭐ [**DSA Repository**](https://github.com/Akashyatinjain) — 180+ Data Structures & Algorithms Solutions
-- ⭐ [**Portfolio**](https://github.com/Akashyatinjain) — Production Web Application & Performance Showcase
+- 🏆 **IEEE Joint Tech Lead** — SFIT Student Branch (workshops & mentoring 100+ students)
+- 🏆 **Smart India Hackathon Finalist** — SWASTHYA Platform
+- 🏆 **180+ LeetCode Problems Solved** — DSA & System Design focus
+- 🏆 **45+ Day GitHub Streak** — 976+ contributions, daily code delivery
 
 <br>
 
@@ -322,21 +204,21 @@ DataStock/
 
 <br><br>
 
-<sub>**backend & apis**</sub>
+<sub>**backend & auth**</sub>
 <br>
-<img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=node.js&logoColor=white"/> <img src="https://img.shields.io/badge/Express.js-404d59?style=flat-square&logo=express&logoColor=61DAFB"/> <img src="https://img.shields.io/badge/REST_API-005571?style=flat-square&logo=postman&logoColor=white"/> <img src="https://img.shields.io/badge/JWT_Auth-000000?style=flat-square&logo=json-web-tokens&logoColor=white"/> <img src="https://img.shields.io/badge/Google_OAuth-4285F4?style=flat-square&logo=google&logoColor=white"/> <img src="https://img.shields.io/badge/Socket.io-010101?style=flat-square&logo=socketdotio&logoColor=white"/>
+<img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=node.js&logoColor=white"/> <img src="https://img.shields.io/badge/Express.js-404d59?style=flat-square&logo=express&logoColor=61DAFB"/> <img src="https://img.shields.io/badge/REST_API-005571?style=flat-square&logo=postman&logoColor=white"/> <img src="https://img.shields.io/badge/JWT-000000?style=flat-square&logo=json-web-tokens&logoColor=white"/> <img src="https://img.shields.io/badge/OAuth_2.0-4285F4?style=flat-square&logo=google&logoColor=white"/>
 
 <br><br>
 
 <sub>**databases & ORM**</sub>
 <br>
-<img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white"/> <img src="https://img.shields.io/badge/Neon_Postgres-00E599?style=flat-square&logo=postgresql&logoColor=black"/> <img src="https://img.shields.io/badge/Prisma_ORM-2D3748?style=flat-square&logo=prisma&logoColor=white"/> <img src="https://img.shields.io/badge/MongoDB-4ea94b?style=flat-square&logo=mongodb&logoColor=white"/> <img src="https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white"/>
+<img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white"/> <img src="https://img.shields.io/badge/Prisma-2D3748?style=flat-square&logo=prisma&logoColor=white"/> <img src="https://img.shields.io/badge/MongoDB-4ea94b?style=flat-square&logo=mongodb&logoColor=white"/>
 
 <br><br>
 
-<sub>**devops, cloud & storage**</sub>
+<sub>**devops & cloud**</sub>
 <br>
-<img src="https://img.shields.io/badge/Docker-0db7ed?style=flat-square&logo=docker&logoColor=white"/> <img src="https://img.shields.io/badge/Docker_Compose-2496ED?style=flat-square&logo=docker&logoColor=white"/> <img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=github-actions&logoColor=white"/> <img src="https://img.shields.io/badge/Cloudinary-3448C5?style=flat-square&logo=cloudinary&logoColor=white"/> <img src="https://img.shields.io/badge/Render-46E3B7?style=flat-square&logo=render&logoColor=black"/> <img src="https://img.shields.io/badge/AWS-FF9900?style=flat-square&logo=amazon-aws&logoColor=white"/> <img src="https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white"/> <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white"/> <img src="https://img.shields.io/badge/Postman-FF6C37?style=flat-square&logo=postman&logoColor=white"/>
+<img src="https://img.shields.io/badge/Docker-0db7ed?style=flat-square&logo=docker&logoColor=white"/> <img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=github-actions&logoColor=white"/> <img src="https://img.shields.io/badge/Cloudinary-3448C5?style=flat-square&logo=cloudinary&logoColor=white"/> <img src="https://img.shields.io/badge/Render-46E3B7?style=flat-square&logo=render&logoColor=black"/> <img src="https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white"/> <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white"/> <img src="https://img.shields.io/badge/Postman-FF6C37?style=flat-square&logo=postman&logoColor=white"/>
 
 </div>
 
@@ -355,9 +237,6 @@ DataStock/
 <p align="center">
 <img src="https://streak-stats.demolab.com?user=Akashyatinjain&theme=github-dark-blue&hide_border=true&background=0D1117&ring=00E676&fire=00E676&currStreakLabel=00E676"/>
 </p>
-<p align="center">
-<img src="https://github-profile-trophy.vercel.app/?username=Akashyatinjain&theme=algolia&no-frame=true&no-bg=true&column=4&margin-w=8&margin-h=8"/>
-</p>
 
 ![stats](./assets/github-stats.svg)
 
@@ -374,26 +253,18 @@ DataStock/
 ╰──────────────────────────────────────────────────────────╯
 ```
 
-> 🚀 **WHY HIRE ME FOR YOUR TEAM?**
-> *"I want to bring that same 'ship it end-to-end' ownership to a real engineering team in a 2026 SWE Internship — taking full responsibility for database schemas, REST APIs, and deployment pipelines from Day 1."*
+> 🚀 **WHY HIRE ME?**
+> *"I want to bring 'ship it end-to-end' ownership to a real team — database schemas, REST APIs, and deployment pipelines from Day 1."*
 
-<br>
-
-### 💼 Availability & Recruiter Summary
-
-- 🎯 **Target Role:** Software Engineering / Backend Engineering Internship (2026)
-- ⚙️ **Domain Focus:** Backend Systems | Full-Stack | Cloud Infrastructure
+- 🎯 **Role:** SWE / Backend Engineering Internship (2026)
+- ⚙️ **Focus:** Backend Systems | Full-Stack | Cloud
 - 📍 **Location:** Remote | India
-- 📅 **Timeline:** 2026 Internship Availability
-
-**I reply within a day.** Send me the role and I'll walk you through DataStock's architecture on a call — no prep needed on your end.
 
 <br>
 
 <a href="mailto:aj0881871@gmail.com"><img src="https://img.shields.io/badge/-EMAIL_ME-D14836?style=for-the-badge&logo=gmail&logoColor=white&labelColor=0D1117"/></a>
-<a href="https://profolio-akashjain.vercel.app/"><img src="https://img.shields.io/badge/-GET_RESUME_PDF-0D1117?style=for-the-badge&logo=adobeacrobatreader&logoColor=00E676&labelColor=0D1117"/></a>
-<a href="https://www.linkedin.com/in/akash-yatin-jain"><img src="https://img.shields.io/badge/-MESSAGE_ON_LINKEDIN-0077B5?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0D1117"/></a>
-<a href="https://profolio-akashjain.vercel.app/"><img src="https://img.shields.io/badge/-FULL_PORTFOLIO-00E676?style=for-the-badge&logo=vercel&logoColor=0D1117&labelColor=0D1117"/></a>
+<a href="https://www.linkedin.com/in/akash-yatin-jain"><img src="https://img.shields.io/badge/-LINKEDIN-0077B5?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0D1117"/></a>
+<a href="https://profolio-akashjain.vercel.app/"><img src="https://img.shields.io/badge/-PORTFOLIO-00E676?style=for-the-badge&logo=vercel&logoColor=0D1117&labelColor=0D1117"/></a>
 
 <br><br>
 
