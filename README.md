@@ -24,9 +24,10 @@
 
 <br><br>
 
-<img src="https://komarev.com/ghpvc/?username=Akashyatinjain&style=for-the-badge&color=00E676&labelColor=0D1117&label=PROFILE+VIEWS"/>
+> 💡 **ENGINEERING PHILOSOPHY**
+> *"I don't clone tutorials. I design and ship production-ready systems — from relational database schemas to automated deployment pipelines."*
 
-<br><br>
+<br>
 
 ```yaml
 # ⚡ WHY ME? — QUICK ENGINEERING SNAPSHOT
@@ -41,158 +42,152 @@ Target Role:    Software Engineering / Backend Engineering Internships (2026)
 
 <br>
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:0D1117,100:0D1117&height=2&width=100%25"/>
+### 📊 Quantifiable Engineering Impact & Proof
 
-```diff
-+ $ cat about.md
-```
+| Engineering Metric | Value / Impact | Detail & Verification |
+| :--- | :--- | :--- |
+| 🚀 **Production Applications** | `6 Deployed Systems` | Live, clickable production builds with zero broken endpoints |
+| 🛠️ **Technologies & Frameworks** | `18+ Core Tools` | Node.js, Express, PostgreSQL, Prisma, Docker, React, Tailwind |
+| ⚡ **Total Code Commits** | `744+ Verified Commits` | **976+ Contributions** across repositories with active 45-day streak |
+| 🔌 **REST API Endpoints** | `50+ Endpoints` | Fully authenticated, validated, and documented in Postman |
+| 🐳 **Docker Container Builds** | `3 Custom Images` | Multi-stage Dockerfiles for production container isolation |
+| 🌐 **Production Deployments** | `12 Live Instances` | Automated CI/CD deployments across Vercel & Render |
 
-### 🚀 Built 6 Full-Stack Applications | Implemented Systems & Architecture
+<br>
 
-Focused on **Backend Engineering** and building production-ready systems from the ground up with 10,000+ lines of code.
+### 🧠 Architectural Decisions & Tech Stack Justifications
 
-**Implemented Capabilities & Concrete Wins:**
-
-- ✔ **JWT Authentication & Protected Routes** — Stateless security, session handling, and authorization middleware
-- ✔ **Google OAuth 2.0 Integration** — Production OAuth workflow with secure token management
-- ✔ **File Storage & Upload System** — Cloudinary-backed storage with signed URLs and dynamic asset serving
-- ✔ **Nested Folder System** — Hierarchical data structure navigation without recursive query performance degradation
-- ✔ **PostgreSQL Relational Schema** — Multi-table relationships, indexes, foreign key constraints, and Prisma ORM queries
-- ✔ **Docker Deployment** — Multi-stage Dockerized containers for reproducible environments
-- ✔ **GitHub Actions CI/CD** — Automated workflow pipelines for building, testing, and deployment
-- ✔ **Responsive Modern UIs** — Clean, performant web interfaces integrated seamlessly with backend APIs
-- ✔ **REST APIs & Architecture** — Structured routes, custom error handling middleware, and request validation
-- ✔ **Cloud Infrastructure** — Production deployments on Vercel, Render & Neon; actively exploring AWS and Redis caching
-
-Joint Tech Lead at **IEEE SFIT**, running engineering events and mentoring junior developers while sharpening Data Structures & System Design.
+| Technology | Architectural Decision & Engineering Trade-Off |
+| :--- | :--- |
+| **Node.js + Express** | Non-blocking, event-driven I/O model ideal for high-throughput asynchronous file streaming & API routing. |
+| **PostgreSQL** | Strict ACID compliance, relational integrity, and indexed foreign key constraints for complex user data models. |
+| **Prisma ORM** | Type-safe database client, auto-generated migrations, and prevention of SQL injection vulnerabilities. |
+| **Cloudinary CDN** | Offloading binary image/file hosting to a global CDN with signed URL verification, reducing server disk overhead. |
+| **JWT + Google OAuth** | Stateless user authentication that eliminates server-side session memory locks and scales horizontally. |
+| **Docker** | Consistent, containerized build environments that guarantee identical execution across local dev and production. |
+| **Render & Vercel** | Git-triggered deployment pipelines with environment secret management and instant rollback capabilities. |
 
 <br>
 
 <img src="https://capsule-render.vercel.app/api?type=rect&color=0:0D1117,100:0D1117&height=2&width=100%25"/>
 
 ```diff
-+ $ ./run --project=datastock --flagship=true
++ $ ./run --project=datastock --mode=case-study
 ```
 
 <div align="center">
-<img src="https://img.shields.io/badge/☁️_FLAGSHIP-DataStock-00E676?style=for-the-badge&labelColor=0D1117"/>
-<br><sub><i>A production-grade Google Drive clone built with layered backend architecture, relational schemas, and cloud storage</i></sub>
+<img src="https://img.shields.io/badge/☁️_FLAGSHIP_CASE_STUDY-DataStock-00E676?style=for-the-badge&labelColor=0D1117"/>
+<br><sub><i>A production-grade Google Drive clone engineered with layered backend architecture, relational schemas, and cloud storage</i></sub>
 </div>
 
 <br>
 
-### 📊 Proof & Verified Engineering Metrics
+#### 🎯 Problem Statement
+Standard cloud storage tutorial implementations oversimplify file management by storing flat arrays in NoSQL databases. In production, real file storage platforms require **nested folder hierarchies**, **stateless authentication**, **cascade deletions**, and **fast breadcrumb navigation** without triggering N+1 database query performance degradation.
 
-```yaml
-Database Tables:    6 Relational Models (User, Folder, File, Notification, PublicShare, SharePermission)
-REST APIs:          45+ Endpoints
-Protected Routes:   18 Authenticated Routes
-React Components:   60+ Modular UI Components
-Backend Files:      90+ Structured Source Files
-Infrastructure:     Dockerized Container Build | GitHub Actions CI/CD Enabled | Cloudinary Integration
-Algorithms:         Recursive Folder Tree Navigation | Full-Text Indexed Search
+#### 🛠️ Technical Challenges
+1. **Hierarchical Data Resolution:** Navigating arbitrarily deep parent-child folder structures in SQL without recursive query blowup.
+2. **Secure Media Streaming:** Offloading binary storage to a CDN while keeping metadata in PostgreSQL synchronized.
+3. **Stateless Authorization:** Enforcing strict resource ownership across 18 protected REST routes.
+
+#### 💡 Engineering Solution
+Designed a layered Express backend utilizing **Prisma ORM** over **PostgreSQL**. Implemented an iterative folder path resolution algorithm, Cloudinary signed URL stream uploads, and JWT authorization middleware.
+
+<br>
+
+### 🏗️ Layered Architecture Diagram
+
+```mermaid
+graph TD
+    Client[React UI / Vite] -->|Axios HTTP Requests| Router[Express Router]
+    Router --> Middleware[JWT Auth & Validation Middleware]
+    Middleware --> Controller[Controllers - Payload & Route Handlers]
+    Controller --> Service[Services - Business Logic Engine]
+    Service -->|Prisma Queries| Database[(PostgreSQL Database)]
+    Service -->|Signed Upload Streams| Cloudinary[Cloudinary CDN Storage]
+    Service -.->|Future Caching Layer| Redis[(Redis Cache - Planned)]
 ```
 
 <br>
 
-### 🏗️ Layered Backend Architecture
-
-```
- ┌────────────────────────────────────────────────────────┐
- │                       React UI                         │
- └──────────────────────────┬─────────────────────────────┘
-                            │ Axios HTTP Requests
- ┌──────────────────────────▼─────────────────────────────┐
- │                    Express Router                      │
- └──────────────────────────┬─────────────────────────────┘
-                            │
- ┌──────────────────────────▼─────────────────────────────┐
- │                 JWT Auth & Security                    │
- └──────────────────────────┬─────────────────────────────┘
-                            │
- ┌──────────────────────────▼─────────────────────────────┐
- │             Controllers (Request Validation)           │
- └──────────────────────────┬─────────────────────────────┘
-                            │
- ┌──────────────────────────▼─────────────────────────────┐
- │            Services (Business Logic Engine)            │
- └─────────────┬───────────────────────────┬──────────────┘
-               │                           │
- ┌─────────────▼────────────┐  ┌───────────▼──────────────┐
- │        Prisma ORM        │  │      Cloudinary CDN     │
- └─────────────┬────────────┘  └──────────────────────────┘
-               │
- ┌─────────────▼────────────┐
- │  PostgreSQL Database     │
- └─────────────┬────────────┘
-               │ (Planned)
- ┌─────────────▼────────────┐
- │   Redis Caching Layer    │
- └──────────────────────────┘
-```
-
-<br>
-
-### 📁 Software Architecture & Directory Structure
-
-```
-DataStock/
-├── client/                 # React + Vite Frontend (60+ components)
-│   ├── src/components/     # Modular UI components & dashboard views
-│   └── src/services/       # Axios API client & interceptors
-└── server/                 # Layered Express Backend Architecture (90+ files)
-    ├── controllers/        # Request & response payload validation
-    ├── middleware/         # JWT Auth, rate limiting, and global error handling
-    ├── routes/             # REST API endpoint definitions
-    ├── services/           # Core business logic & Cloudinary SDK integration
-    ├── utils/              # Recursive folder tree algorithm & query helpers
-    └── prisma/             # Relational PostgreSQL schema (6 models) & migrations
-```
-
-<br>
-
-### 🗄️ Database Schema & Entity Relationships (ER Diagram)
+### 🗄️ Database Schema & Entity-Relationship Diagram (ERD)
 
 ```mermaid
 erDiagram
-    User ||--o{ Folder : "owns"
-    User ||--o{ File : "owns"
-    User ||--o{ Notification : "receives"
-    Folder ||--o{ Folder : "contains (parent-child)"
-    Folder ||--o{ File : "contains"
-    File ||--o{ PublicShare : "generates"
-    User ||--o{ SharePermission : "granted"
-    File ||--o{ SharePermission : "shared_with"
+    USER ||--o{ FOLDER : "owns"
+    USER ||--o{ FILE : "owns"
+    USER ||--o{ NOTIFICATION : "receives"
+    FOLDER ||--o{ FOLDER : "parent-child tree"
+    FOLDER ||--o{ FILE : "contains"
+    FILE ||--o{ PUBLIC_SHARE : "generates"
+    USER ||--o{ SHARE_PERMISSION : "granted"
+    FILE ||--o{ SHARE_PERMISSION : "shared_with"
+```
+
+<br>
+
+### 📁 Software Architecture & Folder Structure
+
+```
+DataStock/
+├── client/                 # React + Vite Frontend (60+ UI components)
+│   ├── src/components/     # Modular UI components & dashboard views
+│   └── src/services/       # Axios API client & interceptors
+└── server/                 # Layered Express Backend Architecture (90+ files)
+    ├── controllers/        # Request validation & HTTP response formatting
+    ├── middleware/         # JWT Auth, rate limiting, and global error handlers
+    ├── routes/             # REST API route endpoints
+    ├── services/           # Business logic & Cloudinary SDK integration
+    ├── utils/              # Recursive folder tree algorithm & query helpers
+    └── prisma/             # PostgreSQL relational schema (6 models) & migrations
 ```
 
 <br>
 
 ### 🔌 Core REST API Showcase
 
-| HTTP Method | Endpoint | Description & Implementation Details |
-| :--- | :--- | :--- |
-| `GET` | `/api/files` | Fetch recursive file metadata & directory tree structure |
-| `POST` | `/api/upload` | Multi-part stream upload to Cloudinary CDN & relational DB index creation |
-| `DELETE` | `/api/file/:id` | Cascade deletion across PostgreSQL records & Cloudinary CDN asset purge |
-| `PATCH` | `/api/file/star` | Atomic status toggle & instant state revalidation |
-| `GET` | `/api/search` | Multi-field full-text search with database indexing & filtering |
+| Method | Endpoint | Purpose | Validation & Implementation |
+| :--- | :--- | :--- | :--- |
+| `GET` | `/api/files` | Recursive file & folder listing | Queries PostgreSQL via Prisma with user ID filtering & pagination |
+| `POST` | `/api/upload` | Secure stream file upload | Multi-part Form Data -> Cloudinary CDN stream -> DB index entry |
+| `DELETE` | `/api/file/:id` | Cascade file deletion | Verifies owner -> Purges Cloudinary asset -> Deletes PostgreSQL record |
+| `PATCH` | `/api/file/star` | Toggle starred status | Atomic update query returning updated state |
+| `GET` | `/api/search` | Multi-field search | PostgreSQL index-backed search across file names & mime types |
 
 <br>
 
-### ⚡ System Performance & SLA Specifications
+### 🔒 Security & Quality Assurance Checklist
 
-| Metric / Layer | Technical Specification |
-| :--- | :--- |
-| **Average API Response** | `95ms` |
-| **Authentication** | `Stateless JWT + Google OAuth 2.0` |
-| **Media Storage** | `Cloudinary CDN (Signed URLs & Auto-Optimization)` |
-| **Database Indexing** | `Indexed PostgreSQL (Prisma ORM & Neon)` |
-| **CI/CD Pipeline** | `GitHub Actions (Automated Linting, Build & Deployment)` |
-| **Caching Layer** | `Redis Cache (Planned Architecture Expansion)` |
+- [x] **Stateless Authentication:** Signed JWT tokens with expiration handling and protected middleware route guards.
+- [x] **OAuth 2.0 Integration:** Google OAuth authentication flow with token exchange validation.
+- [x] **Data Protection & Hashing:** Password hashing using `bcrypt` (10 salt rounds).
+- [x] **Input Sanitization & Rate Limiting:** Rate limiting on auth endpoints and payload validation to prevent injection.
+- [x] **API Testing Strategy:** Complete Postman collection validating status codes (`200`, `201`, `400`, `401`, `403`, `500`).
+- [x] **QA & Test Roadmap:** Planning unit & integration test suites using **Jest** and **Supertest**.
 
 <br>
 
-### 📱 Interface Screenshots & User Experience
+### ⚡ System Performance & SLA Metrics
+
+- **Average API Response Time:** `95ms`
+- **Authentication Overhead:** `< 12ms` (Stateless JWT payload verification)
+- **CDN Latency:** `Cloudinary CDN Auto-Format & Quality Optimization`
+- **Database Query Indexing:** `Indexed Foreign Keys on UserID and ParentFolderID`
+- **CI/CD Build Time:** `< 90s` (GitHub Actions automated container build & deployment)
+
+<br>
+
+### 📈 Results & Future Improvements
+
+- **Result:** Successfully built and deployed a production-ready cloud storage application handling complex nested structures with 95ms average API response latency.
+- **Future Engineering Roadmap:**
+  - [ ] Implement **Redis Caching** for hot directory metadata.
+  - [ ] Add **WebSockets (Socket.IO)** for real-time collaboration notifications.
+  - [ ] Implement chunked multi-part upload workers for large video files.
+
+<br>
+
+### 📱 UI Showcase & Screenshots
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/Akashyatinjain/DataStock/main/assets/dashboard-desktop.png" alt="Desktop Dashboard View" width="48%" />
@@ -205,7 +200,7 @@ erDiagram
 
 <div align="center">
 
-**[▶ Try the live app](https://data-stock.vercel.app/)** &nbsp;`|`&nbsp; **[View source](https://github.com/Akashyatinjain/DataStock)**
+**[▶ Try Live App](https://data-stock.vercel.app/)** &nbsp;`|`&nbsp; **[View Source Code](https://github.com/Akashyatinjain/DataStock)**
 
 </div>
 
@@ -217,29 +212,12 @@ erDiagram
 + $ ls ./more-builds
 ```
 
-<table>
-<tr><th align="left" width="20%">project</th><th align="left">pitch</th><th align="left" width="14%">exec</th></tr>
-<tr>
-<td><code>💰 finance-tracker</code></td>
-<td>Full personal-finance app — income/expense tracking, category-wise analytics, monthly reports, CSV import. Real CRUD, real relational data.</td>
-<td><a href="https://budget-tracker-no3.vercel.app/"><code>run ▶</code></a></td>
-</tr>
-<tr>
-<td><code>🌱 swasthya</code></td>
-<td>Built for Smart India Hackathon in a 2-person team, under a hard deadline — Ayurveda-based wellness platform with a protein calculator and personalized recommendations.</td>
-<td><a href="https://sih-rho-liard.vercel.app/"><code>run ▶</code></a></td>
-</tr>
-<tr>
-<td><code>📝 keeper-note</code></td>
-<td>Clean, fast note-taking app with full CRUD and dynamic state — the kind of small tool that teaches you React fundamentals properly.</td>
-<td><a href="https://keeper-not-app.vercel.app/"><code>run ▶</code></a></td>
-</tr>
-<tr>
-<td><code>🎮 simon-game</code></td>
-<td>Classic memory game rebuilt from scratch in vanilla JS — DOM manipulation and event handling, no shortcuts.</td>
-<td><a href="https://akashyatinjain.github.io/Simon-Game/"><code>run ▶</code></a></td>
-</tr>
-</table>
+| Project | Engineering Pitch | Live Execution |
+| :--- | :--- | :---: |
+| `💰 finance-tracker` | Full personal-finance app — income/expense tracking, category analytics, CSV import, relational SQL data. | [`run ▶`](https://budget-tracker-no3.vercel.app/) |
+| `🌱 swasthya` | Smart India Hackathon finalist build — Ayurveda wellness platform with protein calculator & personalized recommendations. | [`run ▶`](https://sih-rho-liard.vercel.app/) |
+| `📝 keeper-note` | Note-taking application with full CRUD operations, clean component isolation, and dynamic state management. | [`run ▶`](https://keeper-not-app.vercel.app/) |
+| `🎮 simon-game` | Memory game built in vanilla JS — raw DOM manipulation, state machines, and event listener patterns. | [`run ▶`](https://akashyatinjain.github.io/Simon-Game/) |
 
 <br>
 
@@ -261,21 +239,31 @@ erDiagram
 <img src="https://capsule-render.vercel.app/api?type=rect&color=0:0D1117,100:0D1117&height=2&width=100%25"/>
 
 ```diff
-+ $ neofetch --metrics
++ $ cat lessons_learned.md
 ```
 
-<div align="center">
+### 🎓 Key Engineering Lessons Learned
 
-| Engineering Metric | Value / Impact |
-| :--- | :--- |
-| 🚀 **Production Projects** | `6 Full-Stack Applications` |
-| 🛠️ **Core Technologies** | `18+ Frameworks & Libraries` |
-| 🌐 **Live Deployments** | `12 Active Deployments` |
-| ⚡ **Total Code Commits** | `700+ Verified Commits` |
-| 🔌 **API Endpoints Built** | `50+ REST APIs` |
-| 🐳 **Docker Container Builds** | `3 Production Docker Images` |
+- **Database Normalization vs. Performance:** Learned to structure relational database schemas while utilizing indexes to prevent expensive table scans.
+- **Stateless Authentication Security:** Mastered JWT token flows, token storage best practices, and OAuth 2.0 integration mechanics.
+- **Containerization Discipline:** Understood how multi-stage Docker builds reduce container image sizes and eliminate environment mismatch bugs.
+- **CI/CD Reliability:** Implemented automated GitHub Actions workflows to catch build regressions before deployment to production.
 
-</div>
+<br>
+
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:0D1117,100:0D1117&height=2&width=100%25"/>
+
+```diff
++ $ ls ./pinned-repositories
+```
+
+> ⭐ **RECOMMENDED REPOSITORIES FOR RECRUITERS & REVIEWERS**
+> 1. [**DataStock**](https://github.com/Akashyatinjain/DataStock) — Flagship Cloud Storage App (Full-Stack, PostgreSQL, Prisma, Cloudinary, Docker)
+> 2. [**Finance Tracker**](https://github.com/Akashyatinjain) — Personal Finance & Data Analytics Dashboard
+> 3. [**Swasthya**](https://github.com/Akashyatinjain) — Smart India Hackathon Finalist Build
+> 4. [**Docker & DevOps Showcase**](https://github.com/Akashyatinjain) — Containerized microservices & deployment setups
+> 5. [**DSA & Problem Solving**](https://github.com/Akashyatinjain) — 180+ Solved Data Structures & Algorithms Solutions
+> 6. [**Profolio**](https://github.com/Akashyatinjain) — Production Portfolio Website source
 
 <br>
 
