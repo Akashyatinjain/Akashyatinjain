@@ -1,4 +1,6 @@
-![header](https://raw.githubusercontent.com/Akashyatinjain/Akashyatinjain/main/assets/terminal-header-glow.svg)
+![header](https://raw.githubusercontent.com/Akashyatinjain/Akashyatinjain/main/assets/terminal-header-glow.svg?v=2)
+
+
 ```
 ╭──────────────────────────────────────────────────────────╮
 │  akash@sfit ~ %  whoami                                   │
