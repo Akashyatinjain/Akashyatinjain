@@ -1,0 +1,163 @@
+<svg width="900" height="560" viewBox="0 0 900 560" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <defs>
+    <clipPath id="rounded10">
+      <rect x="0" y="0" width="900" height="560" rx="10" ry="10"/>
+    </clipPath>
+  </defs>
+
+  <g clip-path="url(#rounded10)">
+    <rect width="900" height="560" fill="#1e1e1e"/>
+
+    <!-- title bar -->
+    <rect x="0" y="0" width="900" height="30" fill="#3c3c3c"/>
+    <circle cx="18" cy="15" r="6" fill="#ff5f56"/>
+    <circle cx="38" cy="15" r="6" fill="#ffbd2e"/>
+    <circle cx="58" cy="15" r="6" fill="#27c93f"/>
+    <text x="450" y="19" font-family="Consolas, Menlo, monospace" font-size="12" fill="#cccccc" text-anchor="middle">akash-portfolio — projects.js — Visual Studio Code</text>
+
+    <!-- activity bar -->
+    <rect x="0" y="30" width="46" height="500" fill="#333333"/>
+    <g stroke="#cccccc" stroke-width="1.4" fill="none">
+      <path d="M14 50 L28 50 L28 64 L21 58 L14 64 Z" fill="#ffffff"/>
+      <rect x="14" y="86" width="14" height="10" rx="1"/>
+      <path d="M14 112 L28 112 M14 118 L24 118 M14 124 L28 124"/>
+      <circle cx="21" cy="150" r="7"/>
+      <path d="M26 155 L31 160"/>
+    </g>
+
+    <!-- sidebar -->
+    <rect x="46" y="30" width="200" height="500" fill="#252526"/>
+    <text x="62" y="52" font-family="Consolas, Menlo, monospace" font-size="10" fill="#bbbbbb" letter-spacing="1">EXPLORER</text>
+    <text x="62" y="76" font-family="Consolas, Menlo, monospace" font-size="11" fill="#cccccc" font-weight="bold">▾ AKASH-PORTFOLIO</text>
+
+    <g font-family="Consolas, Menlo, monospace" font-size="11" fill="#cccccc">
+      <text x="76" y="96">▾ projects</text>
+      <text x="92" y="114" fill="#9cdcfe">fintracker.js</text>
+      <text x="92" y="132" fill="#9cdcfe">sih.js</text>
+      <text x="92" y="150" fill="#9cdcfe">keeper-note.js</text>
+      <text x="92" y="168" fill="#9cdcfe">simon-game.js</text>
+      <text x="76" y="188">📄 README.md</text>
+      <text x="76" y="206" fill="#ffffff" font-weight="bold">📄 projects.js</text>
+    </g>
+
+    <line x1="246" y1="30" x2="246" y2="530" stroke="#1e1e1e" stroke-width="2"/>
+
+    <!-- editor tabs -->
+    <rect x="246" y="30" width="654" height="34" fill="#252526"/>
+    <rect x="246" y="30" width="150" height="34" fill="#1e1e1e"/>
+    <text x="266" y="52" font-family="Consolas, Menlo, monospace" font-size="12" fill="#ffffff">projects.js</text>
+    <circle cx="384" cy="47" r="4" fill="#cccccc" opacity="0.5"/>
+    <rect x="246" y="30" width="150" height="2" fill="#007acc"/>
+
+    <text x="410" y="52" font-family="Consolas, Menlo, monospace" font-size="12" fill="#969696">README.md</text>
+
+    <!-- code area -->
+    <g font-family="Consolas, Menlo, monospace" font-size="13">
+      <!-- line numbers -->
+      <g fill="#858585" text-anchor="end">
+        <text x="272" y="90">1</text>
+        <text x="272" y="112">2</text>
+        <text x="272" y="134">3</text>
+        <text x="272" y="156">4</text>
+        <text x="272" y="178">5</text>
+        <text x="272" y="200">6</text>
+        <text x="272" y="222">7</text>
+        <text x="272" y="244">8</text>
+        <text x="272" y="266">9</text>
+        <text x="272" y="288">10</text>
+        <text x="272" y="310">11</text>
+        <text x="272" y="332">12</text>
+        <text x="272" y="354">13</text>
+        <text x="272" y="376">14</text>
+        <text x="272" y="398">15</text>
+        <text x="272" y="420">16</text>
+        <text x="272" y="442">17</text>
+        <text x="272" y="464">18</text>
+        <text x="272" y="486">19</text>
+        <text x="272" y="508">20</text>
+      </g>
+      <line x1="282" y1="0" x2="282" y2="560" stroke="#333333" stroke-width="1"/>
+
+      <!-- code -->
+      <g>
+        <text x="292" y="90"><tspan fill="#569cd6">const</tspan><tspan fill="#dcdcaa"> author</tspan><tspan fill="#d4d4d4"> = {</tspan></text>
+        <text x="308" y="112"><tspan fill="#9cdcfe">name</tspan><tspan fill="#d4d4d4">: </tspan><tspan fill="#ce9178">"Akash Yatin Jain"</tspan><tspan fill="#d4d4d4">,</tspan></text>
+        <text x="308" y="134"><tspan fill="#9cdcfe">role</tspan><tspan fill="#d4d4d4">: </tspan><tspan fill="#ce9178">"Full-Stack Developer"</tspan><tspan fill="#d4d4d4">,</tspan></text>
+        <text x="308" y="156"><tspan fill="#9cdcfe">commits</tspan><tspan fill="#d4d4d4">: </tspan><tspan fill="#b5cea8">976</tspan><tspan fill="#d4d4d4">, </tspan><tspan fill="#6a9955">// monthly</tspan></text>
+        <text x="292" y="178"><tspan fill="#d4d4d4">};</tspan></text>
+
+        <text x="292" y="222"><tspan fill="#569cd6">const</tspan><tspan fill="#dcdcaa"> projects</tspan><tspan fill="#d4d4d4"> = [</tspan></text>
+      </g>
+    </g>
+
+    <!-- project card 1 -->
+    <a xlink:href="https://budget-tracker-no3.vercel.app/" target="_blank">
+    <g font-family="Consolas, Menlo, monospace" font-size="13">
+      <rect x="292" y="230" width="592" height="66" fill="#264f78" opacity="0.18"/>
+      <text x="272" y="266" fill="#858585" text-anchor="end">8</text>
+      <text x="272" y="288" fill="#858585" text-anchor="end">9</text>
+      <text x="308" y="266"><tspan fill="#d4d4d4">{ </tspan><tspan fill="#9cdcfe">name</tspan><tspan fill="#d4d4d4">: </tspan><tspan fill="#ce9178">"fintracker"</tspan><tspan fill="#d4d4d4">, </tspan><tspan fill="#9cdcfe">status</tspan><tspan fill="#d4d4d4">: </tspan><tspan fill="#4ec9b0">LIVE</tspan><tspan fill="#d4d4d4"> },</tspan></text>
+      <text x="324" y="288"><tspan fill="#6a9955">// income/expense tracking · category analytics · CSV import</tspan></text>
+      <text x="826" y="266" fill="#569cd6" text-decoration="underline">↗ demo</text>
+    </g>
+    </a>
+
+    <!-- project card 2 -->
+    <a xlink:href="https://sih-rho-liard.vercel.app/" target="_blank">
+    <g font-family="Consolas, Menlo, monospace" font-size="13">
+      <text x="272" y="310" fill="#858585" text-anchor="end">10</text>
+      <text x="272" y="332" fill="#858585" text-anchor="end">11</text>
+      <text x="308" y="310"><tspan fill="#d4d4d4">{ </tspan><tspan fill="#9cdcfe">name</tspan><tspan fill="#d4d4d4">: </tspan><tspan fill="#ce9178">"sih"</tspan><tspan fill="#d4d4d4">, </tspan><tspan fill="#9cdcfe">status</tspan><tspan fill="#d4d4d4">: </tspan><tspan fill="#4ec9b0">FINALIST</tspan><tspan fill="#d4d4d4"> },</tspan></text>
+      <text x="324" y="332"><tspan fill="#6a9955">// Smart India Hackathon finalist · wellness platform</tspan></text>
+      <text x="826" y="310" fill="#569cd6" text-decoration="underline">↗ demo</text>
+    </g>
+    </a>
+
+    <!-- project card 3 -->
+    <a xlink:href="https://keeper-not-app.vercel.app/" target="_blank">
+    <g font-family="Consolas, Menlo, monospace" font-size="13">
+      <text x="272" y="354" fill="#858585" text-anchor="end">12</text>
+      <text x="272" y="376" fill="#858585" text-anchor="end">13</text>
+      <text x="308" y="354"><tspan fill="#d4d4d4">{ </tspan><tspan fill="#9cdcfe">name</tspan><tspan fill="#d4d4d4">: </tspan><tspan fill="#ce9178">"keeper-note"</tspan><tspan fill="#d4d4d4">, </tspan><tspan fill="#9cdcfe">status</tspan><tspan fill="#d4d4d4">: </tspan><tspan fill="#4ec9b0">DEPLOYED</tspan><tspan fill="#d4d4d4"> },</tspan></text>
+      <text x="324" y="376"><tspan fill="#6a9955">// full CRUD notes app · modular state · component isolation</tspan></text>
+      <text x="826" y="354" fill="#569cd6" text-decoration="underline">↗ demo</text>
+    </g>
+    </a>
+
+    <!-- project card 4 -->
+    <a xlink:href="https://github.com/Akashyatinjain" target="_blank">
+    <g font-family="Consolas, Menlo, monospace" font-size="13">
+      <text x="272" y="398" fill="#858585" text-anchor="end">14</text>
+      <text x="272" y="420" fill="#858585" text-anchor="end">15</text>
+      <text x="308" y="398"><tspan fill="#d4d4d4">{ </tspan><tspan fill="#9cdcfe">name</tspan><tspan fill="#d4d4d4">: </tspan><tspan fill="#ce9178">"simon-game"</tspan><tspan fill="#d4d4d4">, </tspan><tspan fill="#9cdcfe">status</tspan><tspan fill="#d4d4d4">: </tspan><tspan fill="#4ec9b0">SOURCE</tspan><tspan fill="#d4d4d4"> },</tspan></text>
+      <text x="324" y="420"><tspan fill="#6a9955">// vanilla JS memory game · DOM events · no framework shortcuts</tspan></text>
+      <text x="826" y="398" fill="#569cd6" text-decoration="underline">↗ code</text>
+    </g>
+    </a>
+
+    <g font-family="Consolas, Menlo, monospace" font-size="13">
+      <text x="272" y="442" fill="#858585" text-anchor="end">16</text>
+      <text x="292" y="442"><tspan fill="#d4d4d4">];</tspan></text>
+
+      <text x="272" y="464" fill="#858585" text-anchor="end">17</text>
+      <text x="272" y="486" fill="#858585" text-anchor="end">18</text>
+      <text x="292" y="486"><tspan fill="#c586c0">export default</tspan><tspan fill="#d4d4d4"> { author, projects };</tspan></text>
+    </g>
+
+    <!-- status bar -->
+    <rect x="0" y="530" width="900" height="30" fill="#007acc"/>
+    <g font-family="Consolas, Menlo, monospace" font-size="11" fill="#ffffff">
+      <text x="14" y="549">⎇ main</text>
+      <text x="80" y="549">✓ 0 problems</text>
+    </g>
+
+    <a xlink:href="https://github.com/Akashyatinjain" target="_blank">
+      <text x="680" y="549" font-family="Consolas, Menlo, monospace" font-size="11" fill="#ffffff" text-decoration="underline">GitHub Profile</text>
+    </a>
+    <a xlink:href="https://profolio-akashjain.vercel.app/" target="_blank">
+      <text x="800" y="549" font-family="Consolas, Menlo, monospace" font-size="11" fill="#ffffff" text-decoration="underline">Portfolio ↗</text>
+    </a>
+  </g>
+
+  <rect x="0.5" y="0.5" width="899" height="559" rx="10" ry="10" fill="none" stroke="#000000" stroke-width="1"/>
+</svg>
