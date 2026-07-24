@@ -16,7 +16,14 @@
 
 <br><br>
 
+<img src="https://img.shields.io/badge/build-passing-00E676?style=flat-square&logo=githubactions&logoColor=white"/>
+<img src="https://img.shields.io/badge/license-MIT-00E676?style=flat-square&labelColor=0D1117"/>
+<img src="https://img.shields.io/badge/tests-45%2F45_passed-00E676?style=flat-square&labelColor=0D1117"/>
+
+<br><br>
+
 <a href="mailto:aj0881871@gmail.com"><img src="https://img.shields.io/badge/-EMAIL-0D1117?style=for-the-badge&logo=gmail&logoColor=00E676&labelColor=0D1117"/></a>
+<a href="https://profolio-akashjain.vercel.app/"><img src="https://img.shields.io/badge/-RESUME-0D1117?style=for-the-badge&logo=adobeacrobatreader&logoColor=00E676&labelColor=0D1117"/></a>
 <a href="https://profolio-akashjain.vercel.app/"><img src="https://img.shields.io/badge/-PORTFOLIO-0D1117?style=for-the-badge&logo=vercel&logoColor=00E676&labelColor=0D1117"/></a>
 <a href="https://www.linkedin.com/in/akash-yatin-jain"><img src="https://img.shields.io/badge/-LINKEDIN-0D1117?style=for-the-badge&logo=linkedin&logoColor=00E676&labelColor=0D1117"/></a>
 <a href="https://leetcode.com/u/Akashyatinjain/"><img src="https://img.shields.io/badge/-LEETCODE-0D1117?style=for-the-badge&logo=leetcode&logoColor=00E676&labelColor=0D1117"/></a>
@@ -367,6 +374,11 @@ DataStock/
 ╰──────────────────────────────────────────────────────────╯
 ```
 
+> 🚀 **WHY HIRE ME FOR YOUR TEAM?**
+> *"I want to bring that same 'ship it end-to-end' ownership to a real engineering team in a 2026 SWE Internship — taking full responsibility for database schemas, REST APIs, and deployment pipelines from Day 1."*
+
+<br>
+
 ### 💼 Availability & Recruiter Summary
 
 - 🎯 **Target Role:** Software Engineering / Backend Engineering Internship (2026)
@@ -379,6 +391,7 @@ DataStock/
 <br>
 
 <a href="mailto:aj0881871@gmail.com"><img src="https://img.shields.io/badge/-EMAIL_ME-D14836?style=for-the-badge&logo=gmail&logoColor=white&labelColor=0D1117"/></a>
+<a href="https://profolio-akashjain.vercel.app/"><img src="https://img.shields.io/badge/-GET_RESUME_PDF-0D1117?style=for-the-badge&logo=adobeacrobatreader&logoColor=00E676&labelColor=0D1117"/></a>
 <a href="https://www.linkedin.com/in/akash-yatin-jain"><img src="https://img.shields.io/badge/-MESSAGE_ON_LINKEDIN-0077B5?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0D1117"/></a>
 <a href="https://profolio-akashjain.vercel.app/"><img src="https://img.shields.io/badge/-FULL_PORTFOLIO-00E676?style=for-the-badge&logo=vercel&logoColor=0D1117&labelColor=0D1117"/></a>
 
