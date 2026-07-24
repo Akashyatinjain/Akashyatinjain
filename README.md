@@ -1,5 +1,4 @@
 ![header](https://raw.githubusercontent.com/Akashyatinjain/Akashyatinjain/main/assets/terminal-header-glow.svg)
-
 ```
 ╭──────────────────────────────────────────────────────────╮
 │  akash@sfit ~ %  whoami                                   │
