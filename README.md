@@ -25,7 +25,7 @@
 <br><br>
 
 > 💡 **ENGINEERING PHILOSOPHY**
-> *"I don't clone tutorials. I design and ship production-ready systems — from relational database schemas to automated deployment pipelines."*
+> *"I don't clone tutorials. I finish production-ready projects — from database schema design to deployment pipelines."*
 
 <br>
 
@@ -48,7 +48,7 @@ Target Role:    Software Engineering / Backend Engineering Internships (2026)
 | :--- | :--- | :--- |
 | 🚀 **Production Applications** | `6 Deployed Systems` | Live, clickable production builds with zero broken endpoints |
 | 🛠️ **Technologies & Frameworks** | `18+ Core Tools` | Node.js, Express, PostgreSQL, Prisma, Docker, React, Tailwind |
-| ⚡ **Total Code Commits** | `744+ Verified Commits` | **976+ Contributions** across repositories with active 45-day streak |
+| ⚡ **Total Code Commits** | `744+ Verified Commits` | **976 Contributions · 45 Day Streak** — *Built while studying full-time* |
 | 🔌 **REST API Endpoints** | `50+ Endpoints` | Fully authenticated, validated, and documented in Postman |
 | 🐳 **Docker Container Builds** | `3 Custom Images` | Multi-stage Dockerfiles for production container isolation |
 | 🌐 **Production Deployments** | `12 Live Instances` | Automated CI/CD deployments across Vercel & Render |
@@ -100,12 +100,25 @@ Designed a layered Express backend utilizing **Prisma ORM** over **PostgreSQL**.
 ```mermaid
 graph TD
     Client[React UI / Vite] -->|Axios HTTP Requests| Router[Express Router]
-    Router --> Middleware[JWT Auth & Validation Middleware]
-    Middleware --> Controller[Controllers - Payload & Route Handlers]
+    Router --> Middleware[JWT Auth & Security Middleware]
+    Middleware --> Controller[Controllers - Request Validation]
     Controller --> Service[Services - Business Logic Engine]
     Service -->|Prisma Queries| Database[(PostgreSQL Database)]
     Service -->|Signed Upload Streams| Cloudinary[Cloudinary CDN Storage]
     Service -.->|Future Caching Layer| Redis[(Redis Cache - Planned)]
+```
+
+<br>
+
+### 🔄 CI/CD Pipeline & Docker Workflow Diagram
+
+```mermaid
+graph LR
+    Push[Git Push to Main] --> Actions[GitHub Actions CI Workflow]
+    Actions --> Lint[Lint & Code Quality Check]
+    Actions --> Docker[Docker Multi-Stage Build]
+    Docker --> DeployRender[Deploy API to Render]
+    Docker --> DeployVercel[Deploy UI to Vercel]
 ```
 
 <br>
@@ -156,19 +169,21 @@ DataStock/
 
 <br>
 
-### 🔒 Security & Quality Assurance Checklist
+### 🛡️ Security & Hardening Checklist
 
-- [x] **Stateless Authentication:** Signed JWT tokens with expiration handling and protected middleware route guards.
-- [x] **OAuth 2.0 Integration:** Google OAuth authentication flow with token exchange validation.
-- [x] **Data Protection & Hashing:** Password hashing using `bcrypt` (10 salt rounds).
-- [x] **Input Sanitization & Rate Limiting:** Rate limiting on auth endpoints and payload validation to prevent injection.
-- [x] **API Testing Strategy:** Complete Postman collection validating status codes (`200`, `201`, `400`, `401`, `403`, `500`).
-- [x] **QA & Test Roadmap:** Planning unit & integration test suites using **Jest** and **Supertest**.
+- [x] **Stateless Authentication (JWT):** Short-lived access tokens with secure authorization middleware route guards.
+- [x] **Google OAuth 2.0:** Secure identity verification and OAuth token exchange protocol.
+- [x] **Password Protection (bcrypt):** Hashing passwords using 10 salt rounds.
+- [x] **HTTP Security Headers (Helmet):** Defense against XSS, MIME sniffing, and clickjacking attacks.
+- [x] **Rate Limiting:** Throttling request spikes using `express-rate-limit` on authentication endpoints.
+- [x] **CORS & Payload Sanitization:** Strict origin policies and sanitized input payloads.
+- [x] **API Testing & Postman Collection:** Manual & Postman suite validation (`200`, `201`, `400`, `401`, `403`, `500`).
 
 <br>
 
-### ⚡ System Performance & SLA Metrics
+### ⚡ System Performance & SLA Specifications
 
+- **Development Timeline:** Built in **3 weeks** from schema design to production deployment.
 - **Average API Response Time:** `95ms`
 - **Authentication Overhead:** `< 12ms` (Stateless JWT payload verification)
 - **CDN Latency:** `Cloudinary CDN Auto-Format & Quality Optimization`
@@ -183,7 +198,7 @@ DataStock/
 - **Future Engineering Roadmap:**
   - [ ] Implement **Redis Caching** for hot directory metadata.
   - [ ] Add **WebSockets (Socket.IO)** for real-time collaboration notifications.
-  - [ ] Implement chunked multi-part upload workers for large video files.
+  - [ ] Explore **Kubernetes** container orchestration and **AWS S3** storage adapters.
 
 <br>
 
@@ -244,10 +259,10 @@ DataStock/
 
 ### 🎓 Key Engineering Lessons Learned
 
-- **Database Normalization vs. Performance:** Learned to structure relational database schemas while utilizing indexes to prevent expensive table scans.
-- **Stateless Authentication Security:** Mastered JWT token flows, token storage best practices, and OAuth 2.0 integration mechanics.
-- **Containerization Discipline:** Understood how multi-stage Docker builds reduce container image sizes and eliminate environment mismatch bugs.
-- **CI/CD Reliability:** Implemented automated GitHub Actions workflows to catch build regressions before deployment to production.
+- ✔ **Database Normalization vs. Performance:** Learned to structure relational database schemas while utilizing indexes to prevent expensive table scans.
+- ✔ **Stateless Authentication Security:** Mastered JWT token flows, token storage best practices, and OAuth 2.0 integration mechanics.
+- ✔ **Containerization Discipline:** Understood how multi-stage Docker builds reduce container image sizes and eliminate environment mismatch bugs.
+- ✔ **CI/CD Reliability:** Implemented automated GitHub Actions workflows to catch build regressions before deployment to production.
 
 <br>
 
@@ -257,13 +272,14 @@ DataStock/
 + $ ls ./pinned-repositories
 ```
 
-> ⭐ **RECOMMENDED REPOSITORIES FOR RECRUITERS & REVIEWERS**
-> 1. [**DataStock**](https://github.com/Akashyatinjain/DataStock) — Flagship Cloud Storage App (Full-Stack, PostgreSQL, Prisma, Cloudinary, Docker)
-> 2. [**Finance Tracker**](https://github.com/Akashyatinjain) — Personal Finance & Data Analytics Dashboard
-> 3. [**Swasthya**](https://github.com/Akashyatinjain) — Smart India Hackathon Finalist Build
-> 4. [**Docker & DevOps Showcase**](https://github.com/Akashyatinjain) — Containerized microservices & deployment setups
-> 5. [**DSA & Problem Solving**](https://github.com/Akashyatinjain) — 180+ Solved Data Structures & Algorithms Solutions
-> 6. [**Profolio**](https://github.com/Akashyatinjain) — Production Portfolio Website source
+### ⭐ Top 6 Pinned Repositories
+
+- ⭐ [**DataStock**](https://github.com/Akashyatinjain/DataStock) — Google Drive Clone (Full-Stack, PostgreSQL, Prisma, Cloudinary, Docker)
+- ⭐ [**Finance Tracker**](https://github.com/Akashyatinjain) — Personal Finance Management & Relational SQL Analytics
+- ⭐ [**Swasthya**](https://github.com/Akashyatinjain) — Smart India Hackathon Finalist Wellness Platform
+- ⭐ [**Docker Learning**](https://github.com/Akashyatinjain) — Containerization & DevOps Pipeline Practice
+- ⭐ [**DSA Repository**](https://github.com/Akashyatinjain) — 180+ Data Structures & Algorithms Solutions
+- ⭐ [**Portfolio**](https://github.com/Akashyatinjain) — Production Web Application & Performance Showcase
 
 <br>
 
