@@ -72,6 +72,12 @@ Target Role:    Software Engineering / Backend Engineering Internships (2026)
 <br><sub><i>A production-grade Google Drive clone — nested folders, JWT auth, Cloudinary storage, Dockerized deployment</i></sub>
 </div>
 
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Akashyatinjain/Akashyatinjain/main/assets/datastock-demo.gif" alt="DataStock Demo" width="100%" />
+  <br>
+  <sub><i>🎬 DataStock — File Upload, Nested Folder Navigation & Search</i></sub>
+</p>
+
 <br>
 
 #### 🎯 Problem
