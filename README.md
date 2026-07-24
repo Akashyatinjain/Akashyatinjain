@@ -107,9 +107,6 @@ Target Role:    Software Engineering / Backend Engineering Internships (2026)
 
 ![Akash's Portfolio](./vscode-readme.svg)
 
-<br>
-
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:0D1117,100:0D1117&height=2&width=100%25"/>
 
 ```diff
 + $ cat achievements.log
