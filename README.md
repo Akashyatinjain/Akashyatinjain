@@ -66,10 +66,9 @@ Target Role:    Software Engineering / Backend Engineering Internships (2026)
 ```diff
 + $ ./run --project=datastock --mode=featured
 ```
-
 <div align="center">
-<img src="https://img.shields.io/badge/FLAGSHIP_PROJECT-DataStock-00E676?style=for-the-badge&labelColor=0D1117"/>
-<br><sub><i>Production-grade cloud storage platform featuring nested folder trees, JWT authentication, and Cloudinary streaming</i></sub>
+<img src="https://img.shields.io/badge/☁️_FLAGSHIP-DataStock-00E676?style=for-the-badge&labelColor=0D1117"/>
+<br><sub><i>A Google Drive clone — but the hard parts weren't skipped</i></sub>
 </div>
 
 <br>
@@ -80,17 +79,73 @@ Target Role:    Software Engineering / Backend Engineering Internships (2026)
   <sub><i>DataStock Interactive Demo — Drag & Drop Upload, Nested Folder Navigation & Search</i></sub>
 </p>
 
-<br>
+<table>
+<tr>
+<td width="58%" valign="top">
+
+```yaml
+status: production
+uptime: live on Vercel + Render
+hard_part: arbitrarily-deep folder trees in
+  PostgreSQL — breadcrumbs, drag-drop
+  moves, and search all stay consistent
+  without recursive-query blowup
+```
+
+**Shipped features**
+
+- 🔐 JWT + Google OAuth authentication with protected routes
+- 📂 Nested folders, drag-and-drop upload, search, starred & recent files
+- ⚡ Cloudinary-backed storage with secure file URLs
+- 🖥️ Fully responsive dashboard with live notifications
+
+**Stack**
+
+<img src="https://img.shields.io/badge/React-20232a?style=flat-square&logo=react&logoColor=61DAFB"/> <img src="https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white"/> <img src="https://img.shields.io/badge/Tailwind-38B2AC?style=flat-square&logo=tailwind-css&logoColor=white"/> <img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=node.js&logoColor=white"/> <img src="https://img.shields.io/badge/Express-404d59?style=flat-square&logo=express&logoColor=61DAFB"/> <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white"/> <img src="https://img.shields.io/badge/Prisma-3982CE?style=flat-square&logo=Prisma&logoColor=white"/> <img src="https://img.shields.io/badge/Cloudinary-3448C5?style=flat-square&logo=cloudinary&logoColor=white"/>
+
+**Building next:** AI-powered file search · team collaboration · version history · real-time sync
+
+</td>
+<td width="42%" valign="top">
+
+```
+ ┌──────────────┐
+ │   React UI   │
+ └──────┬───────┘
+        │ Axios
+ ┌──────▼───────┐
+ │  Express API │
+ │  ── auth ──  │
+ └──────┬───────┘
+        │
+ ┌──────▼───────┐
+ │ Prisma ORM   │
+ └──────┬───────┘
+        │
+ ┌──────▼───────┐
+ │  PostgreSQL  │
+ └──────┬───────┘
+        │
+ ┌──────▼───────┐
+ │  Cloudinary  │
+ │ secure URLs  │
+ └──────────────┘
+```
+
+</td>
+</tr>
+</table>
 
 <div align="center">
 
-<a href="https://data-stock.vercel.app/"><img src="https://img.shields.io/badge/-TRY_LIVE_APP-00E676?style=for-the-badge&logo=vercel&logoColor=0D1117&labelColor=0D1117"/></a>
-&nbsp;&nbsp;
-<a href="https://github.com/Akashyatinjain/DataStock"><img src="https://img.shields.io/badge/-VIEW_SOURCE_CODE_&_ARCHITECTURE-0D1117?style=for-the-badge&logo=github&logoColor=00E676&labelColor=0D1117"/></a>
+**[▶ Try the live app](https://data-stock.vercel.app/)** &nbsp;`|`&nbsp; **[View source](https://github.com/Akashyatinjain/DataStock)**
 
 </div>
 
 <br>
+
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:0D1117,100:0D1117&height=2&width=100%25"/>
+
 
 **Key Engineering Highlights:**
 - **Problem:** Tutorial cloud-storage apps store flat arrays in MongoDB. Real platforms require **nested folder hierarchies**, **cascade deletions**, and **fast path resolution** without N+1 query degradation.
