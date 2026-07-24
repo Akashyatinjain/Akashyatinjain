@@ -224,6 +224,8 @@ hard_part:  arbitrarily-deep folder trees in
 <img src="https://github-profile-trophy.vercel.app/?username=Akashyatinjain&theme=algolia&no-frame=true&no-bg=true&column=4&margin-w=8&margin-h=8"/>
 </p>
 
+![stats](./assets/github-stats.svg)
+
 
 <br>
 
