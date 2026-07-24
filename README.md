@@ -6,15 +6,6 @@
 ╰──────────────────────────────────────────────────────────╯
 ```
 
-<<<<<<< HEAD
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=21&pause=1500&color=00E676&center=true&vCenter=true&width=700&lines=Building+DataStock+-+a+Google+Drive+clone+%E2%98%81%EF%B8%8F;Auth+%C2%B7+Databases+%C2%B7+Cloud+%C2%B7+Deployment+-+end+to+end;IEEE+Joint+Tech+Lead+%40+SFIT;Actively+interviewing+for+2026+SWE+internships"/>
-
-<br>
-
-<img src="https://img.shields.io/badge/root_access-full--stack-00E676?style=for-the-badge&labelColor=0D1117"/>
-<img src="https://img.shields.io/badge/status-open_to_2026_internships-00E676?style=for-the-badge&labelColor=0D1117"/>
-<img src="https://img.shields.io/badge/uptime-shipping_since_day_1-00E676?style=for-the-badge&labelColor=0D1117"/>
-=======
 <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=21&pause=1500&color=00E676&center=true&vCenter=true&width=750&lines=Backend+%26+Systems+Engineering;Authentication+%C2%B7+Caching+%C2%B7+CI%2FCD+%C2%B7+Architecture;Built+6+Production-Ready+Apps+%7C+10%2C000%2B+Lines;Actively+Interviewing+for+2026+SWE+Internships"/>
 
 <br>
@@ -22,7 +13,6 @@
 <img src="https://img.shields.io/badge/focus-backend_%26_systems_engineering-00E676?style=for-the-badge&labelColor=0D1117"/>
 <img src="https://img.shields.io/badge/stack-node_·_express_·_postgres_·_docker-00E676?style=for-the-badge&labelColor=0D1117"/>
 <img src="https://img.shields.io/badge/status-open_to_2026_swe_internships-00E676?style=for-the-badge&labelColor=0D1117"/>
->>>>>>> 1790883 (refactor: update profile README with recruiter and backend engineering focus)
 
 <br><br>
 
@@ -36,9 +26,6 @@
 
 <img src="https://komarev.com/ghpvc/?username=Akashyatinjain&style=for-the-badge&color=00E676&labelColor=0D1117&label=PROFILE+VIEWS"/>
 
-<<<<<<< HEAD
-</div>
-=======
 <br><br>
 
 ```yaml
@@ -51,7 +38,6 @@ Core Domains:   Authentication · Caching · CI/CD · Testing · Scaling · Arch
 Current Role:   Joint Tech Lead @ IEEE SFIT
 Target Role:    Software Engineering / Backend Engineering Internships (2026)
 ```
->>>>>>> 1790883 (refactor: update profile README with recruiter and backend engineering focus)
 
 <br>
 
@@ -61,11 +47,6 @@ Target Role:    Software Engineering / Backend Engineering Internships (2026)
 + $ cat about.md
 ```
 
-<<<<<<< HEAD
-Six projects below. Every single one is **live, deployed, and clickable right now** — not a half-finished repo with a broken `npm start`. I taught myself the full stack by building real things until they broke, then figuring out why: auth flows, relational schemas, file storage, deployment pipelines — the parts tutorials skip.
-
-Right now I'm **Joint Tech Lead at IEEE SFIT**, running technical events and mentoring juniors, while sharpening DSA and system design on the side. Looking for a **Software Engineering internship** where I can bring that same "actually finish it" energy to a real team.
-=======
 ### 🚀 Built 6 Full-Stack Applications | Implemented Systems & Architecture
 
 Focused on **Backend Engineering** and building production-ready systems from the ground up with 10,000+ lines of code.
@@ -81,10 +62,9 @@ Focused on **Backend Engineering** and building production-ready systems from th
 - ✔ **GitHub Actions CI/CD** — Automated workflow pipelines for building, testing, and deployment
 - ✔ **Responsive Modern UIs** — Clean, performant web interfaces integrated seamlessly with backend APIs
 - ✔ **REST APIs & Architecture** — Structured routes, custom error handling middleware, and request validation
-- ✔ **Cloud Infrastructure** — Production deployments on Vercel & Render; actively exploring AWS and Redis caching
+- ✔ **Cloud Infrastructure** — Production deployments on Vercel, Render & Neon; actively exploring AWS and Redis caching
 
 Joint Tech Lead at **IEEE SFIT**, running engineering events and mentoring junior developers while sharpening Data Structures & System Design.
->>>>>>> 1790883 (refactor: update profile README with recruiter and backend engineering focus)
 
 <br>
 
@@ -96,76 +76,11 @@ Joint Tech Lead at **IEEE SFIT**, running engineering events and mentoring junio
 
 <div align="center">
 <img src="https://img.shields.io/badge/☁️_FLAGSHIP-DataStock-00E676?style=for-the-badge&labelColor=0D1117"/>
-<<<<<<< HEAD
-<br><sub><i>A Google Drive clone — but the hard parts weren't skipped</i></sub>
-=======
 <br><sub><i>A production-grade Google Drive clone built with layered backend architecture, relational schemas, and cloud storage</i></sub>
->>>>>>> 1790883 (refactor: update profile README with recruiter and backend engineering focus)
 </div>
 
 <br>
 
-<<<<<<< HEAD
-<!-- 🔴 ADD HERE: a 6-10 second GIF of the dashboard — upload a file, open a folder, show search.
-     This one visual will do more for recruiter attention than every badge in this file combined.
-     ![DataStock demo](link-to-your-gif.gif) -->
-
-<table>
-<tr>
-<td width="58%" valign="top">
-
-```yaml
-status:     production
-uptime:     live on Vercel + Render
-hard_part:  arbitrarily-deep folder trees in
-            PostgreSQL — breadcrumbs, drag-drop
-            moves, and search all stay consistent
-            without recursive-query blowup
-```
-
-**Shipped features**
-- 🔐 JWT + Google OAuth authentication with protected routes
-- 📂 Nested folders, drag-and-drop upload, search, starred & recent files
-- ⚡ Cloudinary-backed storage with secure file URLs
-- 🖥️ Fully responsive dashboard with live notifications
-
-**Stack**
-
-<img src="https://img.shields.io/badge/React-20232a?style=flat-square&logo=react&logoColor=61DAFB"/> <img src="https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white"/> <img src="https://img.shields.io/badge/Tailwind-38B2AC?style=flat-square&logo=tailwind-css&logoColor=white"/> <img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=node.js&logoColor=white"/> <img src="https://img.shields.io/badge/Express-404d59?style=flat-square&logo=express&logoColor=61DAFB"/> <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white"/> <img src="https://img.shields.io/badge/Prisma-3982CE?style=flat-square&logo=Prisma&logoColor=white"/> <img src="https://img.shields.io/badge/Cloudinary-3448C5?style=flat-square&logo=cloudinary&logoColor=white"/>
-
-**Building next:** AI-powered file search · team collaboration · version history · real-time sync
-
-</td>
-<td width="42%" valign="top">
-
-```
- ┌──────────────┐
- │   React UI   │
- └──────┬───────┘
-        │ Axios
- ┌──────▼───────┐
- │  Express API │
- │  ── auth ──  │
- └──────┬───────┘
-        │
- ┌──────▼───────┐
- │ Prisma ORM   │
- └──────┬───────┘
-        │
- ┌──────▼───────┐
- │  PostgreSQL  │
- └──────┬───────┘
-        │
- ┌──────▼───────┐
- │  Cloudinary  │
- │ secure URLs  │
- └──────────────┘
-```
-
-</td>
-</tr>
-</table>
-=======
 ### 📊 Proof & Verified Engineering Metrics
 
 ```yaml
@@ -271,7 +186,7 @@ erDiagram
 | **Average API Response** | `95ms` |
 | **Authentication** | `Stateless JWT + Google OAuth 2.0` |
 | **Media Storage** | `Cloudinary CDN (Signed URLs & Auto-Optimization)` |
-| **Database Indexing** | `Indexed PostgreSQL (Prisma ORM)` |
+| **Database Indexing** | `Indexed PostgreSQL (Prisma ORM & Neon)` |
 | **CI/CD Pipeline** | `GitHub Actions (Automated Linting, Build & Deployment)` |
 | **Caching Layer** | `Redis Cache (Planned Architecture Expansion)` |
 
@@ -287,7 +202,6 @@ erDiagram
   <img src="https://raw.githubusercontent.com/Akashyatinjain/DataStock/main/assets/file-upload.png" alt="File Upload Modal" width="48%" />
   <img src="https://raw.githubusercontent.com/Akashyatinjain/DataStock/main/assets/search-analytics.png" alt="Search & Analytics" width="48%" />
 </p>
->>>>>>> 1790883 (refactor: update profile README with recruiter and backend engineering focus)
 
 <div align="center">
 
@@ -335,20 +249,33 @@ erDiagram
 + $ cat achievements.log
 ```
 
+- 🏆 **2nd Runner Up** — Colloquium (SFIT technical & project competition)
+- 🏆 **IEEE Joint Tech Lead** — SFIT Student Branch (events & technical mentorship)
+- 🏆 **Smart India Hackathon** — Finalist-track build (SWASTHYA)
+- 🏆 **Docker & CI/CD Pipelines** — Multi-stage builds & GitHub Actions deployment
+- 🏆 **45+ Day GitHub Streak** — Consistent daily engineering & code delivery
+- 🏆 **180+ DSA Problems Solved** — Data Structures, Algorithms & System Design focus
+
+<br>
+
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:0D1117,100:0D1117&height=2&width=100%25"/>
+
+```diff
++ $ neofetch --metrics
 ```
-[✓] 2nd Runner-Up — Colloquium (SFIT technical & project competition)
-[✓] Joint Tech Lead — IEEE SFIT Student Branch (events + mentoring)
-[✓] Full-Stack Web Development — certified, Udemy
-[✓] Smart India Hackathon — finalist-track build, SWASTHYA
-<<<<<<< HEAD
-[~] currently compiling: Docker · AWS · System Design
-```
-<!-- 🔴 ADD HERE if you have them: LeetCode problems solved count, contest rating,
-     or number of Colloquium teams you beat out. Specific numbers beat adjectives. -->
-=======
-[~] currently compiling: Docker · AWS · Redis · System Architecture
-```
->>>>>>> 1790883 (refactor: update profile README with recruiter and backend engineering focus)
+
+<div align="center">
+
+| Engineering Metric | Value / Impact |
+| :--- | :--- |
+| 🚀 **Production Projects** | `6 Full-Stack Applications` |
+| 🛠️ **Core Technologies** | `18+ Frameworks & Libraries` |
+| 🌐 **Live Deployments** | `12 Active Deployments` |
+| ⚡ **Total Code Commits** | `700+ Verified Commits` |
+| 🔌 **API Endpoints Built** | `50+ REST APIs` |
+| 🐳 **Docker Container Builds** | `3 Production Docker Images` |
+
+</div>
 
 <br>
 
@@ -362,7 +289,7 @@ erDiagram
 
 <sub>**languages**</sub>
 <br>
-<img src="https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white"/> <img src="https://img.shields.io/badge/JavaScript-323330?style=flat-square&logo=javascript&logoColor=F7DF1E"/> <img src="https://img.shields.io/badge/Python-3670A0?style=flat-square&logo=python&logoColor=ffdd54"/> <img src="https://img.shields.io/badge/C-00599C?style=flat-square&logo=c&logoColor=white"/>
+<img src="https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white"/> <img src="https://img.shields.io/badge/JavaScript-323330?style=flat-square&logo=javascript&logoColor=F7DF1E"/> <img src="https://img.shields.io/badge/Python-3670A0?style=flat-square&logo=python&logoColor=ffdd54"/> <img src="https://img.shields.io/badge/C-00599C?style=flat-square&logo=c&logoColor=white"/> <img src="https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=postgresql&logoColor=white"/>
 
 <br><br>
 
@@ -372,19 +299,21 @@ erDiagram
 
 <br><br>
 
-<sub>**backend & data**</sub>
+<sub>**backend & apis**</sub>
 <br>
-<<<<<<< HEAD
-<img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=node.js&logoColor=white"/> <img src="https://img.shields.io/badge/Express.js-404d59?style=flat-square&logo=express&logoColor=61DAFB"/> <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white"/> <img src="https://img.shields.io/badge/Prisma-3982CE?style=flat-square&logo=Prisma&logoColor=white"/> <img src="https://img.shields.io/badge/MongoDB-4ea94b?style=flat-square&logo=mongodb&logoColor=white"/>
-=======
-<img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=node.js&logoColor=white"/> <img src="https://img.shields.io/badge/Express.js-404d59?style=flat-square&logo=express&logoColor=61DAFB"/> <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white"/> <img src="https://img.shields.io/badge/Prisma-3982CE?style=flat-square&logo=Prisma&logoColor=white"/> <img src="https://img.shields.io/badge/MongoDB-4ea94b?style=flat-square&logo=mongodb&logoColor=white"/> <img src="https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white"/>
->>>>>>> 1790883 (refactor: update profile README with recruiter and backend engineering focus)
+<img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=node.js&logoColor=white"/> <img src="https://img.shields.io/badge/Express.js-404d59?style=flat-square&logo=express&logoColor=61DAFB"/> <img src="https://img.shields.io/badge/REST_API-005571?style=flat-square&logo=postman&logoColor=white"/> <img src="https://img.shields.io/badge/JWT_Auth-000000?style=flat-square&logo=json-web-tokens&logoColor=white"/> <img src="https://img.shields.io/badge/Google_OAuth-4285F4?style=flat-square&logo=google&logoColor=white"/> <img src="https://img.shields.io/badge/Socket.io-010101?style=flat-square&logo=socketdotio&logoColor=white"/>
 
 <br><br>
 
-<sub>**tools & cloud**</sub>
+<sub>**databases & ORM**</sub>
 <br>
-<img src="https://img.shields.io/badge/Docker-0db7ed?style=flat-square&logo=docker&logoColor=white"/> <img src="https://img.shields.io/badge/AWS-FF9900?style=flat-square&logo=amazon-aws&logoColor=white"/> <img src="https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white"/> <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white"/> <img src="https://img.shields.io/badge/Postman-FF6C37?style=flat-square&logo=postman&logoColor=white"/> <img src="https://img.shields.io/badge/Figma-F24E1E?style=flat-square&logo=figma&logoColor=white"/>
+<img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white"/> <img src="https://img.shields.io/badge/Neon_Postgres-00E599?style=flat-square&logo=postgresql&logoColor=black"/> <img src="https://img.shields.io/badge/Prisma_ORM-2D3748?style=flat-square&logo=prisma&logoColor=white"/> <img src="https://img.shields.io/badge/MongoDB-4ea94b?style=flat-square&logo=mongodb&logoColor=white"/> <img src="https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white"/>
+
+<br><br>
+
+<sub>**devops, cloud & storage**</sub>
+<br>
+<img src="https://img.shields.io/badge/Docker-0db7ed?style=flat-square&logo=docker&logoColor=white"/> <img src="https://img.shields.io/badge/Docker_Compose-2496ED?style=flat-square&logo=docker&logoColor=white"/> <img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=github-actions&logoColor=white"/> <img src="https://img.shields.io/badge/Cloudinary-3448C5?style=flat-square&logo=cloudinary&logoColor=white"/> <img src="https://img.shields.io/badge/Render-46E3B7?style=flat-square&logo=render&logoColor=black"/> <img src="https://img.shields.io/badge/AWS-FF9900?style=flat-square&logo=amazon-aws&logoColor=white"/> <img src="https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white"/> <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white"/> <img src="https://img.shields.io/badge/Postman-FF6C37?style=flat-square&logo=postman&logoColor=white"/>
 
 </div>
 
@@ -409,35 +338,6 @@ erDiagram
 
 ![stats](./assets/github-stats.svg)
 
-<<<<<<< HEAD
-
-=======
->>>>>>> 1790883 (refactor: update profile README with recruiter and backend engineering focus)
-<br>
-
-```diff
-+ $ ./contribution-graph --animate
-```
-
-<p align="center">
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Akashyatinjain/Akashyatinjain/output/github-contribution-grid-snake-dark.svg"/>
-  <img alt="contribution snake animation" src="https://raw.githubusercontent.com/Akashyatinjain/Akashyatinjain/output/github-contribution-grid-snake.svg"/>
-</picture>
-</p>
-
-<<<<<<< HEAD
-<sub align="center">
-
-> ⚙️ **one-time setup for the snake animation above** — it needs a tiny GitHub Action, not just this README.
-> 1. In your `Akashyatinjain/Akashyatinjain` repo → `Settings → Actions → General` → enable **Read and write permissions**.
-> 2. Add `.github/workflows/snake.yml` (ask me and I'll generate it for you).
-> 3. Push once — the Action regenerates the SVG daily and the image above will start rendering automatically.
-
-</sub>
-
-=======
->>>>>>> 1790883 (refactor: update profile README with recruiter and backend engineering focus)
 <br>
 
 <img src="https://capsule-render.vercel.app/api?type=rect&color=0:0D1117,100:0D1117&height=2&width=100%25"/>
@@ -447,16 +347,20 @@ erDiagram
 ```
 ╭──────────────────────────────────────────────────────────╮
 │  akash@sfit ~ %  ./contact --urgent                       │
-<<<<<<< HEAD
-│  > compiling internship applications... 2026              │
-│  > status: actively interviewing                          │
-=======
-│  > status: actively interviewing for 2026 SWE internships │
->>>>>>> 1790883 (refactor: update profile README with recruiter and backend engineering focus)
+│  > STATUS: ACTIVELY INTERVIEWING FOR 2026 SWE INTERNSHIPS │
 ╰──────────────────────────────────────────────────────────╯
 ```
 
+### 💼 Availability & Recruiter Summary
+
+- 🎯 **Target Role:** Software Engineering / Backend Engineering Internship (2026)
+- ⚙️ **Domain Focus:** Backend Systems | Full-Stack | Cloud Infrastructure
+- 📍 **Location:** Remote | India
+- 📅 **Timeline:** 2026 Internship Availability
+
 **I reply within a day.** Send me the role and I'll walk you through DataStock's architecture on a call — no prep needed on your end.
+
+<br>
 
 <a href="mailto:aj0881871@gmail.com"><img src="https://img.shields.io/badge/-EMAIL_ME-D14836?style=for-the-badge&logo=gmail&logoColor=white&labelColor=0D1117"/></a>
 <a href="https://www.linkedin.com/in/akash-yatin-jain"><img src="https://img.shields.io/badge/-MESSAGE_ON_LINKEDIN-0077B5?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0D1117"/></a>
