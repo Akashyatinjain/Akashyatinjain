@@ -76,7 +76,7 @@ Target Role:    Software Engineering / Backend Engineering Internships (2026)
 ```
 
 <div align="center">
-<img src="https://img.shields.io/badge/☁️_FLAGSHIP_CASE_STUDY-DataStock-00E676?style=for-the-badge&labelColor=0D1117"/>
+<img src="https://img.shields.io/badge/FLAGSHIP_CASE_STUDY-DataStock-00E676?style=for-the-badge&labelColor=0D1117"/>
 <br><sub><i>A production-grade Google Drive clone engineered with layered backend architecture, relational schemas, and cloud storage</i></sub>
 </div>
 
@@ -215,7 +215,9 @@ DataStock/
 
 <div align="center">
 
-**[▶ Try Live App](https://data-stock.vercel.app/)** &nbsp;`|`&nbsp; **[View Source Code](https://github.com/Akashyatinjain/DataStock)**
+<a href="https://data-stock.vercel.app/"><img src="https://img.shields.io/badge/-TRY_LIVE_APP-00E676?style=for-the-badge&logo=vercel&logoColor=0D1117&labelColor=0D1117"/></a>
+&nbsp;&nbsp;
+<a href="https://github.com/Akashyatinjain/DataStock"><img src="https://img.shields.io/badge/-VIEW_SOURCE_CODE-0D1117?style=for-the-badge&logo=github&logoColor=00E676&labelColor=0D1117"/></a>
 
 </div>
 
@@ -231,6 +233,8 @@ DataStock/
 | :--- | :--- | :---: |
 | `💰 finance-tracker` | Full personal-finance app — income/expense tracking, category analytics, CSV import, relational SQL data. | [`run ▶`](https://budget-tracker-no3.vercel.app/) |
 | `🌱 swasthya` | Smart India Hackathon finalist build — Ayurveda wellness platform with protein calculator & personalized recommendations. | [`run ▶`](https://sih-rho-liard.vercel.app/) |
+| `⚡ redis-cache-layer` | High-performance caching layer & rate limiter implementation in Redis & Node.js for low-latency endpoints. | [`run ▶`](https://github.com/Akashyatinjain) |
+| `📊 appointment-analytics` | Full-stack scheduling system & data aggregation dashboard with automated status notifications. | [`run ▶`](https://github.com/Akashyatinjain) |
 | `📝 keeper-note` | Note-taking application with full CRUD operations, clean component isolation, and dynamic state management. | [`run ▶`](https://keeper-not-app.vercel.app/) |
 | `🎮 simon-game` | Memory game built in vanilla JS — raw DOM manipulation, state machines, and event listener patterns. | [`run ▶`](https://akashyatinjain.github.io/Simon-Game/) |
 
@@ -275,7 +279,7 @@ DataStock/
 ### ⭐ Top 6 Pinned Repositories
 
 - ⭐ [**DataStock**](https://github.com/Akashyatinjain/DataStock) — Google Drive Clone (Full-Stack, PostgreSQL, Prisma, Cloudinary, Docker)
-- ⭐ [**Finance Tracker**](https://github.com/Akashyatinjain) — Personal Finance Management & Relational SQL Analytics
+- ⭐ [**Finance Tracker**](https://github.com/Akashyatinjain/Budget-tracker) — Personal Finance Management & Relational SQL Analytics
 - ⭐ [**Swasthya**](https://github.com/Akashyatinjain) — Smart India Hackathon Finalist Wellness Platform
 - ⭐ [**Docker Learning**](https://github.com/Akashyatinjain) — Containerization & DevOps Pipeline Practice
 - ⭐ [**DSA Repository**](https://github.com/Akashyatinjain) — 180+ Data Structures & Algorithms Solutions
