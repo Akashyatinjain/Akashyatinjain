@@ -23,6 +23,7 @@
 <br><br>
 
 <a href="mailto:aj0881871@gmail.com"><img src="https://img.shields.io/badge/-EMAIL-0D1117?style=for-the-badge&logo=gmail&logoColor=00E676&labelColor=0D1117"/></a>
+<a href="https://profolio-akashjain.vercel.app/"><img src="https://img.shields.io/badge/-RESUME-0D1117?style=for-the-badge&logo=adobeacrobatreader&logoColor=00E676&labelColor=0D1117"/></a>
 <a href="https://profolio-akashjain.vercel.app/"><img src="https://img.shields.io/badge/-PORTFOLIO-0D1117?style=for-the-badge&logo=vercel&logoColor=00E676&labelColor=0D1117"/></a>
 <a href="https://www.linkedin.com/in/akash-yatin-jain"><img src="https://img.shields.io/badge/-LINKEDIN-0D1117?style=for-the-badge&logo=linkedin&logoColor=00E676&labelColor=0D1117"/></a>
 <a href="https://leetcode.com/u/Akashyatinjain/"><img src="https://img.shields.io/badge/-LEETCODE-0D1117?style=for-the-badge&logo=leetcode&logoColor=00E676&labelColor=0D1117"/></a>
@@ -146,7 +147,9 @@ Target Role:    Software Engineering / Backend Engineering Internships (2026)
 <img src="https://streak-stats.demolab.com?user=Akashyatinjain&theme=github-dark-blue&hide_border=true&background=0D1117&ring=00E676&fire=00E676&currStreakLabel=00E676"/>
 </p>
 
-![stats](./assets/github-stats.svg)
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Akashyatinjain/Akashyatinjain/output/github-contribution-grid-snake-dark.svg" alt="Contribution Snake Animation" width="100%" />
+</p>
 
 <br>
 
@@ -172,6 +175,7 @@ Target Role:    Software Engineering / Backend Engineering Internships (2026)
 
 <a href="mailto:aj0881871@gmail.com"><img src="https://img.shields.io/badge/-EMAIL_ME-D14836?style=for-the-badge&logo=gmail&logoColor=white&labelColor=0D1117"/></a>
 <a href="https://www.linkedin.com/in/akash-yatin-jain"><img src="https://img.shields.io/badge/-LINKEDIN-0077B5?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0D1117"/></a>
+<a href="https://profolio-akashjain.vercel.app/"><img src="https://img.shields.io/badge/-RESUME-0D1117?style=for-the-badge&logo=adobeacrobatreader&logoColor=00E676&labelColor=0D1117"/></a>
 <a href="https://profolio-akashjain.vercel.app/"><img src="https://img.shields.io/badge/-PORTFOLIO-00E676?style=for-the-badge&logo=vercel&logoColor=0D1117&labelColor=0D1117"/></a>
 
 <br><br>
