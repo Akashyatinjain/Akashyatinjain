@@ -105,7 +105,7 @@ Target Role:    Software Engineering / Backend Engineering Internships (2026)
 + $ ls ./other-projects
 ```
 
-![Akash's Portfolio](./vscode-readme.svg)
+![Akash's Portfolio](https://raw.githubusercontent.comAkashyatinjain/Akashyatinjain/main/assets/vscode-readme.svg)
 
 
 ```diff
