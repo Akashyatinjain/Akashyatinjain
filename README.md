@@ -1,198 +1,6 @@
-
-
 <div align="center">
 
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=230&color=0:0D1117,35:00E676,100:0D1117&text=AKASH%20JAIN&fontSize=52&fontAlignY=38&animation=fadeIn&fontColor=ffffff&desc=6%20apps%20shipped%20solo.%20Auth%2C%20DB%2C%20cloud%2C%20deploy%20-%20all%20of%20it.&descAlignY=58&descSize=18"/>
-
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=21&pause=1500&color=00E676&center=true&vCenter=true&width=680&lines=Building+DataStock+-+a+Google+Drive+clone+%E2%98%81%EF%B8%8F;Auth+%C2%B7+Databases+%C2%B7+Cloud+%C2%B7+Deployment+-+end+to+end;IEEE+Joint+Tech+Lead+%40+SFIT;Actively+interviewing+for+2026+SWE+internships"/>
-
-<br>
-
-<a href="mailto:aj0881871@gmail.com"><img src="https://img.shields.io/badge/📩_Contact_Me-00E676?style=for-the-badge&labelColor=0D1117"/></a>
-<a href="https://profolio-akashjain.vercel.app/"><img src="https://img.shields.io/badge/🌐_Portfolio-0D1117?style=for-the-badge"/></a>
-<a href="https://www.linkedin.com/in/akash-yatin-jain"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
-<a href="https://leetcode.com/u/Akashyatinjain/"><img src="https://img.shields.io/badge/LeetCode-F89F1B?style=for-the-badge&logo=leetcode&logoColor=white"/></a>
-
-</div>
-
-<br>
-
-## ⚡ Why work with me
-
-Six projects below. Every single one is **live, deployed, and clickable right now** — not a half-finished repo with a broken `npm start`. I taught myself the full stack by building real things until they broke, then figuring out why: auth flows, relational schemas, file storage, deployment pipelines — the parts tutorials skip.
-
-Right now I'm **Joint Tech Lead at IEEE SFIT**, running technical events and mentoring juniors, while sharpening DSA and system design on the side. Looking for a **Software Engineering internship** where I can bring that same "actually finish it" energy to a real team.
-
-<br>
-
-## ☁️ Flagship: DataStock — a Google Drive clone, built from scratch
-
-<!-- 🔴 ADD HERE: a 6-10 second GIF of the dashboard — upload a file, open a folder, show search.
-     This one visual will do more for recruiter attention than every badge below combined.
-     ![DataStock demo](link-to-your-gif.gif) -->
-
-A real cloud storage platform with the pieces that actually make one hard to build: authentication, nested file hierarchy, cloud storage integration, and a dashboard that doesn't feel like a student project.
-
-**The hardest part:** modeling an arbitrarily-deep folder tree in PostgreSQL and keeping breadcrumb navigation, drag-and-drop moves, and search all consistent against it — without falling back to recursive queries that don't scale.
-
-<table>
-<tr>
-<td width="60%" valign="top">
-
-**What's actually working**
-- 🔐 JWT + Google OAuth authentication with protected routes
-- 📂 Nested folders, drag-and-drop upload, search, starred & recent files
-- ⚡ Cloudinary-backed storage with secure file URLs
-- 🖥️ Fully responsive dashboard with live notifications
-
-**Stack**
-`React + Vite` `Tailwind` `Node.js + Express` `PostgreSQL` `Prisma` `Cloudinary` `Vercel + Render`
-
-**Building next:** AI-powered file search, team collaboration, version history, real-time sync
-
-</td>
-<td width="40%" valign="top">
-
-```text
-React UI
-   │  Axios
-   ▼
-Express API
-   │  Auth Layer
-   ▼
-Prisma → PostgreSQL
-   │
-   ▼
-Cloudinary
-   │
-Secure File URLs
-```
-
-</td>
-</tr>
-</table>
-
-<div align="center">
-
-**[▶ Try the live app](https://data-stock.vercel.app/)** &nbsp;·&nbsp; **[View source](https://github.com/Akashyatinjain/DataStock)**
-
-</div>
-
-<br>
-
-## 🚀 More things I've shipped
-
-<table>
-<tr><th align="left" width="22%">Project</th><th align="left">The pitch</th><th align="left" width="18%">Try it</th></tr>
-<tr>
-<td><b>💰 Finance Tracker</b></td>
-<td>Full personal-finance app — income/expense tracking, category-wise analytics, monthly reports, CSV import. Real CRUD, real relational data.</td>
-<td><a href="https://budget-tracker-no3.vercel.app/">Live ↗</a></td>
-</tr>
-<tr>
-<td><b>🌱 SWASTHYA</b></td>
-<td>Built for Smart India Hackathon in a 2-person team, under a hard deadline — Ayurveda-based wellness platform with a protein calculator and personalized recommendations.</td>
-<td><a href="https://sih-rho-liard.vercel.app/">Live ↗</a></td>
-</tr>
-<tr>
-<td><b>📝 Keeper Note</b></td>
-<td>Clean, fast note-taking app with full CRUD and dynamic state — the kind of small tool that teaches you React fundamentals properly.</td>
-<td><a href="https://keeper-not-app.vercel.app/">Live ↗</a></td>
-</tr>
-<tr>
-<td><b>🎮 Simon Game</b></td>
-<td>Classic memory game rebuilt from scratch in vanilla JS — DOM manipulation and event handling, no shortcuts.</td>
-<td><a href="https://akashyatinjain.github.io/Simon-Game/">Live ↗</a></td>
-</tr>
-</table>
-
-<br>
-
-## 🏆 Proof of work
-
-- 🥈 **2nd Runner-Up, Colloquium** — SFIT's technical & project competition
-- 🎓 **Joint Tech Lead, IEEE SFIT Student Branch** — leading events, workshops, mentoring juniors
-- ✅ **Full-Stack Web Development**, certified — Udemy
-- 🇮🇳 **Smart India Hackathon** finalist-track build — SWASTHYA
-- 🔄 Currently deepening: **Docker, AWS, System Design**
-
-<!-- 🔴 ADD HERE if you have them: LeetCode problems solved count, contest rating,
-     or number of Colloquium teams you beat out. Specific numbers beat adjectives. -->
-
-<br>
-
-## 🛠 What I build with
-
-<div align="center">
-
-<img src="https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white"/> <img src="https://img.shields.io/badge/JavaScript-323330?style=flat-square&logo=javascript&logoColor=F7DF1E"/> <img src="https://img.shields.io/badge/Python-3670A0?style=flat-square&logo=python&logoColor=ffdd54"/> <img src="https://img.shields.io/badge/C-00599C?style=flat-square&logo=c&logoColor=white"/>
-<br><br>
-<img src="https://img.shields.io/badge/React-20232a?style=flat-square&logo=react&logoColor=61DAFB"/> <img src="https://img.shields.io/badge/TailwindCSS-38B2AC?style=flat-square&logo=tailwind-css&logoColor=white"/> <img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=node.js&logoColor=white"/> <img src="https://img.shields.io/badge/Express.js-404d59?style=flat-square&logo=express&logoColor=61DAFB"/>
-<br><br>
-<img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white"/> <img src="https://img.shields.io/badge/Prisma-3982CE?style=flat-square&logo=Prisma&logoColor=white"/> <img src="https://img.shields.io/badge/MongoDB-4ea94b?style=flat-square&logo=mongodb&logoColor=white"/>
-<br><br>
-<img src="https://img.shields.io/badge/Docker-0db7ed?style=flat-square&logo=docker&logoColor=white"/> <img src="https://img.shields.io/badge/AWS-FF9900?style=flat-square&logo=amazon-aws&logoColor=white"/> <img src="https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white"/> <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white"/> <img src="https://img.shields.io/badge/Postman-FF6C37?style=flat-square&logo=postman&logoColor=white"/> <img src="https://img.shields.io/badge/Figma-F24E1E?style=flat-square&logo=figma&logoColor=white"/>
-
-</div>
-
-<br>
-
-## 📊 The numbers
-
-<p align="center">
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=Akashyatinjain&show_icons=true&theme=github_dark&hide_border=true"/>
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Akashyatinjain&layout=compact&theme=github_dark&hide_border=true"/>
-</p>
-<p align="center">
-<img src="https://streak-stats.demolab.com?user=Akashyatinjain&theme=github-dark-blue&hide_border=true"/>
-</p>
-
-<br>
-
-<div align="center">
-
-## 📬 Actively interviewing for 2026 SWE internships
-
-**I reply within a day.** Send me the role and I'll walk you through DataStock's architecture on a call, no prep needed on your end.
-
-<a href="mailto:aj0881871@gmail.com"><img src="https://img.shields.io/badge/Email_Me-D14836?style=for-the-badge&logo=gmail&logoColor=white"/></a>
-<a href="https://www.linkedin.com/in/akash-yatin-jain"><img src="https://img.shields.io/badge/Message_on_LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
-<a href="https://profolio-akashjain.vercel.app/"><img src="https://img.shields.io/badge/See_Full_Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white"/></a>
-
-<br><br>
-
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=110&color=0:0D1117,50:00E676,100:0D1117&section=footer"/>
-
-</div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
-
-
-
-
-
-
-
-<div align="center">
-
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=250&color=0:0D1117,35:00E676,100:0D1117&text=%20&fontSize=0&animation=fadeIn"/>
-
-<table>
-<tr><td>
 
 ```
 ╭──────────────────────────────────────────────────────────╮
@@ -200,10 +8,7 @@ Secure File URLs
 ╰──────────────────────────────────────────────────────────╯
 ```
 
-</td></tr>
-</table>
-
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=28&pause=1200&color=00E676&center=true&vCenter=true&width=800&lines=AKASH+JAIN;Full-Stack+Engineer;6%2B+production+apps+shipped+solo;auth+%C2%B7+databases+%C2%B7+cloud+%C2%B7+deploy;open+to+SWE+internships+2026" />
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=21&pause=1500&color=00E676&center=true&vCenter=true&width=700&lines=Building+DataStock+-+a+Google+Drive+clone+%E2%98%81%EF%B8%8F;Auth+%C2%B7+Databases+%C2%B7+Cloud+%C2%B7+Deployment+-+end+to+end;IEEE+Joint+Tech+Lead+%40+SFIT;Actively+interviewing+for+2026+SWE+internships"/>
 
 <br>
 
@@ -235,7 +40,7 @@ Secure File URLs
 
 Six projects below. Every single one is **live, deployed, and clickable right now** — not a half-finished repo with a broken `npm start`. I taught myself the full stack by building real things until they broke, then figuring out why: auth flows, relational schemas, file storage, deployment pipelines — the parts tutorials skip.
 
-Currently **Joint Tech Lead @ IEEE SFIT**, running technical events and mentoring juniors, while sharpening DSA and system design between deploys.
+Right now I'm **Joint Tech Lead at IEEE SFIT**, running technical events and mentoring juniors, while sharpening DSA and system design on the side. Looking for a **Software Engineering internship** where I can bring that same "actually finish it" energy to a real team.
 
 <br>
 
@@ -253,7 +58,7 @@ Currently **Joint Tech Lead @ IEEE SFIT**, running technical events and mentorin
 <br>
 
 <!-- 🔴 ADD HERE: a 6-10 second GIF of the dashboard — upload a file, open a folder, show search.
-     This one visual beats every badge in this file combined. Drop it right here:
+     This one visual will do more for recruiter attention than every badge in this file combined.
      ![DataStock demo](link-to-your-gif.gif) -->
 
 <table>
@@ -270,16 +75,16 @@ hard_part:  arbitrarily-deep folder trees in
 ```
 
 **Shipped features**
-- 🔐 JWT + Google OAuth, protected routes
-- 📂 Nested folders, drag-and-drop upload, search, starred & recent
-- ⚡ Cloudinary-backed storage, secure file URLs
-- 🖥️ Fully responsive dashboard, live notifications
+- 🔐 JWT + Google OAuth authentication with protected routes
+- 📂 Nested folders, drag-and-drop upload, search, starred & recent files
+- ⚡ Cloudinary-backed storage with secure file URLs
+- 🖥️ Fully responsive dashboard with live notifications
 
 **Stack**
 
 <img src="https://img.shields.io/badge/React-20232a?style=flat-square&logo=react&logoColor=61DAFB"/> <img src="https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white"/> <img src="https://img.shields.io/badge/Tailwind-38B2AC?style=flat-square&logo=tailwind-css&logoColor=white"/> <img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=node.js&logoColor=white"/> <img src="https://img.shields.io/badge/Express-404d59?style=flat-square&logo=express&logoColor=61DAFB"/> <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white"/> <img src="https://img.shields.io/badge/Prisma-3982CE?style=flat-square&logo=Prisma&logoColor=white"/> <img src="https://img.shields.io/badge/Cloudinary-3448C5?style=flat-square&logo=cloudinary&logoColor=white"/>
 
-**In progress:** AI file search · team collaboration · version history · real-time sync
+**Building next:** AI-powered file search · team collaboration · version history · real-time sync
 
 </td>
 <td width="42%" valign="top">
@@ -314,7 +119,7 @@ hard_part:  arbitrarily-deep folder trees in
 
 <div align="center">
 
-**[▶ launch app](https://data-stock.vercel.app/)** &nbsp;`|`&nbsp; **[view source](https://github.com/Akashyatinjain/DataStock)**
+**[▶ Try the live app](https://data-stock.vercel.app/)** &nbsp;`|`&nbsp; **[View source](https://github.com/Akashyatinjain/DataStock)**
 
 </div>
 
@@ -330,22 +135,22 @@ hard_part:  arbitrarily-deep folder trees in
 <tr><th align="left" width="20%">project</th><th align="left">pitch</th><th align="left" width="14%">exec</th></tr>
 <tr>
 <td><code>💰 finance-tracker</code></td>
-<td>Full personal-finance app — income/expense tracking, category analytics, monthly reports, CSV import. Real CRUD, real relational data.</td>
+<td>Full personal-finance app — income/expense tracking, category-wise analytics, monthly reports, CSV import. Real CRUD, real relational data.</td>
 <td><a href="https://budget-tracker-no3.vercel.app/"><code>run ▶</code></a></td>
 </tr>
 <tr>
 <td><code>🌱 swasthya</code></td>
-<td>Built for Smart India Hackathon, 2-person team, hard deadline — Ayurveda wellness platform with a protein calculator + personalized recs.</td>
+<td>Built for Smart India Hackathon in a 2-person team, under a hard deadline — Ayurveda-based wellness platform with a protein calculator and personalized recommendations.</td>
 <td><a href="https://sih-rho-liard.vercel.app/"><code>run ▶</code></a></td>
 </tr>
 <tr>
 <td><code>📝 keeper-note</code></td>
-<td>Fast note-taking app, full CRUD, dynamic state — the small tool that teaches React fundamentals properly.</td>
+<td>Clean, fast note-taking app with full CRUD and dynamic state — the kind of small tool that teaches you React fundamentals properly.</td>
 <td><a href="https://keeper-not-app.vercel.app/"><code>run ▶</code></a></td>
 </tr>
 <tr>
 <td><code>🎮 simon-game</code></td>
-<td>Classic memory game, rebuilt in vanilla JS — raw DOM manipulation, event handling, zero shortcuts.</td>
+<td>Classic memory game rebuilt from scratch in vanilla JS — DOM manipulation and event handling, no shortcuts.</td>
 <td><a href="https://akashyatinjain.github.io/Simon-Game/"><code>run ▶</code></a></td>
 </tr>
 </table>
@@ -365,8 +170,8 @@ hard_part:  arbitrarily-deep folder trees in
 [✓] Smart India Hackathon — finalist-track build, SWASTHYA
 [~] currently compiling: Docker · AWS · System Design
 ```
-<!-- 🔴 ADD HERE if you have them: LeetCode problems solved, contest rating,
-     or how many teams you beat at Colloquium. Numbers > adjectives. -->
+<!-- 🔴 ADD HERE if you have them: LeetCode problems solved count, contest rating,
+     or number of Colloquium teams you beat out. Specific numbers beat adjectives. -->
 
 <br>
 
@@ -457,7 +262,7 @@ hard_part:  arbitrarily-deep folder trees in
 ╰──────────────────────────────────────────────────────────╯
 ```
 
-**I reply within a day.** Send me the role — I'll walk you through DataStock's architecture live, no prep needed on your end.
+**I reply within a day.** Send me the role and I'll walk you through DataStock's architecture on a call — no prep needed on your end.
 
 <a href="mailto:aj0881871@gmail.com"><img src="https://img.shields.io/badge/-EMAIL_ME-D14836?style=for-the-badge&logo=gmail&logoColor=white&labelColor=0D1117"/></a>
 <a href="https://www.linkedin.com/in/akash-yatin-jain"><img src="https://img.shields.io/badge/-MESSAGE_ON_LINKEDIN-0077B5?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0D1117"/></a>
