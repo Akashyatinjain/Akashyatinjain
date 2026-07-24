@@ -147,6 +147,18 @@ Target Role:    Software Engineering / Backend Engineering Internships (2026)
 <img src="https://streak-stats.demolab.com?user=Akashyatinjain&theme=github-dark-blue&hide_border=true&background=0D1117&ring=00E676&fire=00E676&currStreakLabel=00E676"/>
 </p>
 
+<br>
+
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:0D1117,100:0D1117&height=2&width=100%25"/>
+
+```diff
++ $ git contribution-graph --snake
+```
+
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Akashyatinjain&theme=react-dark&bg_color=0D1117&color=00E676&line=00E676&point=00E676&area=true&hide_border=true" alt="Contribution Graph" width="100%" />
+</p>
+
 <p align="center">
   <img src="https://raw.githubusercontent.com/Akashyatinjain/Akashyatinjain/output/github-contribution-grid-snake-dark.svg" alt="Contribution Snake Animation" width="100%" />
 </p>
